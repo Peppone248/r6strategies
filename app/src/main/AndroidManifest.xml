@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.r6strategies">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.R6strategies">
+        <activity android:name=".coastline.CostaStrat"></activity>
+        <activity android:name=".coastline.CostaStrat1" />
+        <activity android:name=".coastline.CostaStrat2" />
+        <activity android:name=".coastline.CostaStrat3" />
+        <activity android:name=".coastline.SelectSpotCosta" />
+        <activity android:name=".clb.CLBStrat3" />
+        <activity android:name=".oregon.OregonStrat3" />
+        <activity android:name=".clb.CLBStrat2" />
+        <activity android:name=".clb.CLBStrat1" />
+        <activity android:name=".clb.CLBStrat" />
+        <activity android:name=".clb.SelectSpotCLB" />
+        <activity android:name=".oregon.OregonStrat2" />
+        <activity android:name=".oregon.OregonStrat1" />
+        <activity android:name=".oregon.SelectSpotOregon" />
+        <activity android:name=".oregon.OregonStrat" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
