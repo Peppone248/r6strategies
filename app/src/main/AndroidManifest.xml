@@ -9,25 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
-        <activity android:name=".coastline.CostaStrat"/>
+        <activity android:name=".Intro.Splash"
+            android:theme="@style/Theme.R6strategies.noAction" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".coastline.CostaStrat" />
         <activity android:name=".coastline.CostaStrat1" />
         <activity android:name=".coastline.CostaStrat2" />
         <activity android:name=".coastline.CostaStrat3" />
         <activity android:name=".coastline.SelectSpotCosta" />
-
-
-        <activity android:name=".kafe.SelectSpotKafe"/>
-
-        <activity android:name=".kafe.KafeStrat"
-            android:theme="@style/Theme.R6strategies.noAction"/>
-        <activity android:name=".kafe.KafeStrat1"
-            android:theme="@style/Theme.R6strategies.noAction"/>
-        <activity android:name=".kafe.KafeStrat2"
-            android:theme="@style/Theme.R6strategies.noAction"/>
-        <activity android:name=".kafe.KafeStrat3"
-            android:theme="@style/Theme.R6strategies.noAction"/>
-
-
+        <activity android:name=".kafe.SelectSpotKafe" />
+        <activity
+            android:name=".kafe.KafeStrat"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".kafe.KafeStrat1"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".kafe.KafeStrat2"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".kafe.KafeStrat3"
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity android:name=".clb.CLBStrat3" />
         <activity android:name=".oregon.OregonStrat3" />
         <activity android:name=".clb.CLBStrat2" />
@@ -39,11 +46,7 @@
         <activity android:name=".oregon.SelectSpotOregon" />
         <activity android:name=".oregon.OregonStrat" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
