@@ -32,7 +32,7 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
             // Get car image view object.
             final ImageView carImageView = (ImageView)carItemView.findViewById(R.id.card_view_image);
             // When click the image.
-            carImageView.setOnClickListener(new View.OnClickListener() {
+            carItemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     // Get car title text.

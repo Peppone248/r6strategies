@@ -10,10 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.r6strategies.MyListRadioAdapter;
 import com.example.r6strategies.R;
-import com.example.r6strategies.coastline.CostaStrat;
-import com.example.r6strategies.coastline.CostaStrat1;
-import com.example.r6strategies.coastline.CostaStrat2;
-import com.example.r6strategies.coastline.CostaStrat3;
 
 public class SelectSpotKafe extends AppCompatActivity {
 
@@ -27,7 +23,7 @@ public class SelectSpotKafe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_spot_costa);
+        setContentView(R.layout.activity_select_spot);
 
         MyListRadioAdapter adapter = new MyListRadioAdapter(this, maintitle);
         list = (ListView)findViewById(R.id.listSpot);

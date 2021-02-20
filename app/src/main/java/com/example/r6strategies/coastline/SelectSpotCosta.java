@@ -10,11 +10,6 @@ import android.widget.ListView;
 
 import com.example.r6strategies.MyListRadioAdapter;
 import com.example.r6strategies.R;
-import com.example.r6strategies.clb.CLBStrat;
-import com.example.r6strategies.clb.CLBStrat1;
-import com.example.r6strategies.clb.CLBStrat2;
-import com.example.r6strategies.clb.CLBStrat3;
-import com.example.r6strategies.clb.SelectSpotCLB;
 
 public class SelectSpotCosta extends AppCompatActivity {
 
@@ -28,7 +23,7 @@ public class SelectSpotCosta extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_spot_costa);
+        setContentView(R.layout.activity_select_spot);
 
         MyListRadioAdapter adapter = new MyListRadioAdapter(this, maintitle);
         list = (ListView)findViewById(R.id.listSpot);

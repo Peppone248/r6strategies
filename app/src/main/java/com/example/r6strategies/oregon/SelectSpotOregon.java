@@ -24,7 +24,7 @@ public class SelectSpotOregon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_spot_oregon);
+        setContentView(R.layout.activity_select_spot);
 
         MyListRadioAdapter adapter = new MyListRadioAdapter(this, maintitle);
         list = (ListView)findViewById(R.id.listSpot);
