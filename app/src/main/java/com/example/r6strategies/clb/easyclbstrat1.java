@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.r6strategies.CarRecyclerViewDataAdapter;
-import com.example.r6strategies.CarRecyclerViewItem;
+import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
+import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class easyclbstrat1 extends Fragment {
         // Required empty public constructor
     }
 
-    private List<CarRecyclerViewItem> carItemList = null;
+    private List<OperatorRecyclerViewItem> carItemList = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class easyclbstrat1 extends Fragment {
         carRecyclerView.setLayoutManager(gridLayoutManager);
 
         // Create car recycler view data adapter with car item list.
-        CarRecyclerViewDataAdapter carDataAdapter = new CarRecyclerViewDataAdapter(carItemList);
+        OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
         carRecyclerView.setAdapter(carDataAdapter);
         return view;
@@ -53,12 +53,12 @@ public class easyclbstrat1 extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
-            carItemList = new ArrayList<CarRecyclerViewItem>();
-            carItemList.add(new CarRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new CarRecyclerViewItem("CAVEIRA", R.drawable.caveira));
-            carItemList.add(new CarRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new CarRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new CarRecyclerViewItem("ELA", R.drawable.ela));
+            carItemList = new ArrayList<OperatorRecyclerViewItem>();
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

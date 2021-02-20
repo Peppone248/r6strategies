@@ -6,12 +6,12 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-public class CarRecyclerViewItemHolder extends RecyclerView.ViewHolder{
+public class OperatorRecyclerViewItemHolder extends RecyclerView.ViewHolder{
 private TextView carTitleText = null;
 
 private ImageView carImageView = null;
 
-public CarRecyclerViewItemHolder(View itemView) {
+public OperatorRecyclerViewItemHolder(View itemView) {
         super(itemView);
 
         if(itemView != null)

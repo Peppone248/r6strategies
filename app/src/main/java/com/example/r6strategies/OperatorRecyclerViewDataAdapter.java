@@ -12,16 +12,16 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 
-public class CarRecyclerViewDataAdapter extends RecyclerView.Adapter<CarRecyclerViewItemHolder> {
+public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<OperatorRecyclerViewItemHolder> {
 
-        private List<CarRecyclerViewItem> carItemList;
+        private List<OperatorRecyclerViewItem> carItemList;
 
-    public CarRecyclerViewDataAdapter(List<CarRecyclerViewItem> carItemList) {
+    public OperatorRecyclerViewDataAdapter(List<OperatorRecyclerViewItem> carItemList) {
             this.carItemList = carItemList;
         }
 
         @Override
-        public CarRecyclerViewItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public OperatorRecyclerViewItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             // Get LayoutInflater object.
             LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
             // Inflate the RecyclerView item layout xml.
@@ -44,16 +44,16 @@ public class CarRecyclerViewDataAdapter extends RecyclerView.Adapter<CarRecycler
             });
 
             // Create and return our custom Car Recycler View Item Holder object.
-            CarRecyclerViewItemHolder ret = new CarRecyclerViewItemHolder(carItemView);
+            OperatorRecyclerViewItemHolder ret = new OperatorRecyclerViewItemHolder(carItemView);
             return ret;
         }
 
 
         @Override
-        public void onBindViewHolder(CarRecyclerViewItemHolder holder, int position) {
+        public void onBindViewHolder(OperatorRecyclerViewItemHolder holder, int position) {
             if(carItemList!=null) {
                 // Get car item dto in list.
-                CarRecyclerViewItem carItem = carItemList.get(position);
+                OperatorRecyclerViewItem carItem = carItemList.get(position);
 
                 if(carItem != null) {
                     // Set car item title.

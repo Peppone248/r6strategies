@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.r6strategies.CarRecyclerViewDataAdapter;
-import com.example.r6strategies.CarRecyclerViewItem;
+import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
+import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class easyoregonstrat2 extends Fragment {
         // Required empty public constructor
     }
 
-    private List<CarRecyclerViewItem> carItemList = null;
+    private List<OperatorRecyclerViewItem> carItemList = null;
 
 
     @Override
@@ -44,7 +44,7 @@ public class easyoregonstrat2 extends Fragment {
         carRecyclerView.setLayoutManager(gridLayoutManager);
 
         // Create car recycler view data adapter with car item list.
-        CarRecyclerViewDataAdapter carDataAdapter = new CarRecyclerViewDataAdapter(carItemList);
+        OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
         carRecyclerView.setAdapter(carDataAdapter);
         return view;
@@ -55,12 +55,12 @@ public class easyoregonstrat2 extends Fragment {
     {
         if(carItemList == null)
         {
-            carItemList = new ArrayList<CarRecyclerViewItem>();
-            carItemList.add(new CarRecyclerViewItem("KAID", R.drawable.kaid));
-            carItemList.add(new CarRecyclerViewItem("FROST", R.drawable.frost));
-            carItemList.add(new CarRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new CarRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new CarRecyclerViewItem("LESION", R.drawable.lesion));
+            carItemList = new ArrayList<OperatorRecyclerViewItem>();
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.r6strategies.CarRecyclerViewDataAdapter;
-import com.example.r6strategies.CarRecyclerViewItem;
+import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
+import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
 
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ public class easyclbstrat extends Fragment {
         // Required empty public constructor
     }
 
-    private List<CarRecyclerViewItem> carItemList = null;
+    private List<OperatorRecyclerViewItem> carItemList = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class easyclbstrat extends Fragment {
         carRecyclerView.setLayoutManager(gridLayoutManager);
 
         // Create car recycler view data adapter with car item list.
-        CarRecyclerViewDataAdapter carDataAdapter = new CarRecyclerViewDataAdapter(carItemList);
+        OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
         carRecyclerView.setAdapter(carDataAdapter);
         return view;
@@ -54,12 +54,12 @@ public class easyclbstrat extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
-            carItemList = new ArrayList<CarRecyclerViewItem>();
-            carItemList.add(new CarRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new CarRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new CarRecyclerViewItem("ROOK", R.drawable.rook));
-            carItemList.add(new CarRecyclerViewItem("CASTLE", R.drawable.castle));
-            carItemList.add(new CarRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList = new ArrayList<OperatorRecyclerViewItem>();
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
+            carItemList.add(new OperatorRecyclerViewItem("ROOK", R.drawable.rook));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

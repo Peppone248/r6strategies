@@ -1,4 +1,4 @@
-package com.example.r6strategies.coastline;
+package com.example.r6strategies.kafe;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,10 +16,9 @@ import com.example.r6strategies.R;
 import java.util.ArrayList;
 import java.util.List;
 
+public class easykafestrat2 extends Fragment {
 
-public class easycostastrat3 extends Fragment {
-
-    public easycostastrat3() {
+    public easykafestrat2() {
         // Required empty public constructor
     }
 
@@ -34,7 +33,7 @@ public class easycostastrat3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_easycostastrat, container, false);
+        View view = inflater.inflate(R.layout.fragment_easykafestrat, container, false);
 
         initializeCarItemList();
         RecyclerView carRecyclerView = (RecyclerView) view.findViewById(R.id.card_view_recycler_list);
@@ -56,11 +55,11 @@ public class easycostastrat3 extends Fragment {
         if(carItemList == null)
         {
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
             carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

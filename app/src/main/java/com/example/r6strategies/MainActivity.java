@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.r6strategies.clb.SelectSpotCLB;
 import com.example.r6strategies.coastline.SelectSpotCosta;
+import com.example.r6strategies.kafe.SelectSpotKafe;
 import com.example.r6strategies.oregon.SelectSpotOregon;
 
 
@@ -55,9 +56,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
                 if(position == 0) {
-                    //code specific to first list item
-
-                    Toast.makeText(getApplicationContext(),"Place Your First Option Code",Toast.LENGTH_SHORT).show();
+                    Intent kafe = new Intent(MainActivity.this, SelectSpotKafe.class);
+                    MainActivity.this.startActivity(kafe);
                 }
 
                 else if(position == 1) {

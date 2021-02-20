@@ -1,12 +1,12 @@
 package com.example.r6strategies;
 
-public class CarRecyclerViewItem {// Save car name.
+public class OperatorRecyclerViewItem {// Save car name.
     private String carName;
 
     // Save car image resource id.
     private int carImageId;
 
-    public CarRecyclerViewItem(String carName, int carImageId) {
+    public OperatorRecyclerViewItem(String carName, int carImageId) {
         this.carName = carName;
         this.carImageId = carImageId;
     }

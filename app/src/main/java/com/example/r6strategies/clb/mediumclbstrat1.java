@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.r6strategies.CarRecyclerViewDataAdapter;
-import com.example.r6strategies.CarRecyclerViewItem;
+import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
+import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
 
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ public class mediumclbstrat1 extends Fragment {
         // Required empty public constructor
     }
 
-    private List<CarRecyclerViewItem> carItemList = null;
+    private List<OperatorRecyclerViewItem> carItemList = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,7 +43,7 @@ public class mediumclbstrat1 extends Fragment {
         carRecyclerView.setLayoutManager(gridLayoutManager);
 
         // Create car recycler view data adapter with car item list.
-        CarRecyclerViewDataAdapter carDataAdapter = new CarRecyclerViewDataAdapter(carItemList);
+        OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
         carRecyclerView.setAdapter(carDataAdapter);
         return view;
@@ -52,12 +52,12 @@ public class mediumclbstrat1 extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
-            carItemList = new ArrayList<CarRecyclerViewItem>();
-            carItemList.add(new CarRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new CarRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new CarRecyclerViewItem("KAID", R.drawable.kaid));
-            carItemList.add(new CarRecyclerViewItem("MOZZIE", R.drawable.mozzie));
-            carItemList.add(new CarRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList = new ArrayList<OperatorRecyclerViewItem>();
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
+            carItemList.add(new OperatorRecyclerViewItem("MOZZIE", R.drawable.mozzie));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

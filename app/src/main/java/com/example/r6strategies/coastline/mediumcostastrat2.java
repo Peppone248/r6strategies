@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.r6strategies.CarRecyclerViewDataAdapter;
-import com.example.r6strategies.CarRecyclerViewItem;
+import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
+import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class mediumcostastrat2 extends Fragment {
         // Required empty public constructor
     }
 
-    private List<CarRecyclerViewItem> carItemList = null;
+    private List<OperatorRecyclerViewItem> carItemList = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,7 +43,7 @@ public class mediumcostastrat2 extends Fragment {
         carRecyclerView.setLayoutManager(gridLayoutManager);
 
         // Create car recycler view data adapter with car item list.
-        CarRecyclerViewDataAdapter carDataAdapter = new CarRecyclerViewDataAdapter(carItemList);
+        OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
         carRecyclerView.setAdapter(carDataAdapter);
         return view;
@@ -54,12 +54,12 @@ public class mediumcostastrat2 extends Fragment {
     {
         if(carItemList == null)
         {
-            carItemList = new ArrayList<CarRecyclerViewItem>();
-            carItemList.add(new CarRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new CarRecyclerViewItem("VIGIL", R.drawable.vigil));
-            carItemList.add(new CarRecyclerViewItem("ALIBI", R.drawable.alibi));
-            carItemList.add(new CarRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new CarRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList = new ArrayList<OperatorRecyclerViewItem>();
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil));
+            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }
