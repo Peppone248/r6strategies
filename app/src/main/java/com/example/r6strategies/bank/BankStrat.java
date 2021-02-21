@@ -4,8 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
+import com.example.r6strategies.bank.MyFragmentPagerAdapter;
 
-import com.example.r6strategies.MyFragmentPagerAdapter;
 import com.example.r6strategies.R;
 import com.google.android.material.tabs.TabLayout;
 
