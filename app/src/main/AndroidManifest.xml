@@ -20,6 +20,18 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".bank.BankStrat"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".bank.BankStrat1"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".bank.BankStrat2"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
+            android:name=".bank.BankStrat3"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity
             android:name=".coastline.CostaStrat"
             android:theme="@style/Theme.R6strategies.noAction" />/>
         <activity
