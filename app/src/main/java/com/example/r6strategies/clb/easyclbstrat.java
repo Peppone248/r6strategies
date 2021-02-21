@@ -35,7 +35,7 @@ public class easyclbstrat extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_easyclbstrat, container, false);
+        View view = inflater.inflate(R.layout.fragment_easystrat, container, false);
 
         initializeCarItemList();
         RecyclerView carRecyclerView = (RecyclerView) view.findViewById(R.id.card_view_recycler_list);

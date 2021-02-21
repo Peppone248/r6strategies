@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="5dp"
     android:layout_marginLeft="5dp"
-    android:layout_marginTop="20dp"
+    android:layout_marginTop="30dp"
     android:layout_marginEnd="5dp"
     android:layout_marginRight="5dp"
     app:cardCornerRadius="8dp"
@@ -19,7 +19,7 @@
         <ImageView
             android:id="@+id/card_view_image"
             android:layout_width="match_parent"
-            android:layout_height="135dp"
+            android:layout_height="175dp"
             android:scaleType="centerCrop" />
 
         <TextView

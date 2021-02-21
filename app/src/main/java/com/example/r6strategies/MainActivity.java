@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.r6strategies.bank.SelectSpotBank;
 import com.example.r6strategies.clb.SelectSpotCLB;
 import com.example.r6strategies.coastline.SelectSpotCosta;
 import com.example.r6strategies.kafe.SelectSpotKafe;
@@ -66,8 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 else if(position == 2) {
+                    Intent bank = new Intent(MainActivity.this, SelectSpotBank.class);
+                    MainActivity.this.startActivity(bank);
 
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }
                 else if(position == 3) {
                     Intent oregon = new Intent(MainActivity.this, SelectSpotOregon.class);
