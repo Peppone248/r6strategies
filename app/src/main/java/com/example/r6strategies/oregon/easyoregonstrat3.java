@@ -62,6 +62,7 @@ public class easyoregonstrat3 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
             carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
             carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

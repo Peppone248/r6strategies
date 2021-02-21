@@ -26,6 +26,12 @@ public class KafeStrat1 extends AppCompatActivity {
         setTabLayout();
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
+
     private void setPagerAdapter(){
         myFragmentPagerAdapter = new MyFragmentPagerAdapter1(getSupportFragmentManager());
         viewPager.setAdapter(myFragmentPagerAdapter);

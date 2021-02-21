@@ -60,6 +60,7 @@ public class easycostastrat2 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
             carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
             carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -26,6 +26,12 @@ public class BankStrat3 extends AppCompatActivity {
         setPagerAdapter();
         setTabLayout();
     }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
     private void setPagerAdapter(){
         myFragmentPagerAdapter3 = new MyFragmentPagerAdapter3(getSupportFragmentManager());
         viewPager.setAdapter(myFragmentPagerAdapter3);

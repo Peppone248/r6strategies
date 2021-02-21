@@ -38,22 +38,31 @@ public class SelectSpotCLB extends AppCompatActivity {
                 if(position==0){
                     Intent clb = new Intent(SelectSpotCLB.this, CLBStrat.class);
                     SelectSpotCLB.this.startActivity(clb);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
                     Intent clb = new Intent(SelectSpotCLB.this, CLBStrat1.class);
                     SelectSpotCLB.this.startActivity(clb);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
                     Intent clb = new Intent(SelectSpotCLB.this, CLBStrat2.class);
                     SelectSpotCLB.this.startActivity(clb);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
                     Intent clb = new Intent(SelectSpotCLB.this, CLBStrat3.class);
                     SelectSpotCLB.this.startActivity(clb);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

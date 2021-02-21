@@ -57,8 +57,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
                 if(position == 0) {
-                    Intent kafe = new Intent(MainActivity.this, SelectSpotKafe.class);
-                    MainActivity.this.startActivity(kafe);
+                    Intent kafe = new Intent(getApplicationContext(), SelectSpotKafe.class);
+                    startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 1) {
@@ -69,11 +70,13 @@ public class MainActivity extends AppCompatActivity {
                 else if(position == 2) {
                     Intent bank = new Intent(MainActivity.this, SelectSpotBank.class);
                     MainActivity.this.startActivity(bank);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 3) {
                     Intent oregon = new Intent(MainActivity.this, SelectSpotOregon.class);
                     MainActivity.this.startActivity(oregon);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 4) {
 
@@ -82,10 +85,12 @@ public class MainActivity extends AppCompatActivity {
                  else if(position == 5) {
                     Intent costa = new Intent(MainActivity.this, SelectSpotCosta.class);
                     MainActivity.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 6) {
                      Intent clb = new Intent(MainActivity.this, SelectSpotCLB.class);
                      MainActivity.this.startActivity(clb);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 7) {
 

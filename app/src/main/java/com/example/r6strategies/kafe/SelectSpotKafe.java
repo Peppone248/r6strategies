@@ -34,22 +34,33 @@ public class SelectSpotKafe extends AppCompatActivity {
                 if(position==0){
                     Intent kafe = new Intent(SelectSpotKafe.this, KafeStrat.class);
                     SelectSpotKafe.this.startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
                     Intent kafe = new Intent(SelectSpotKafe.this, KafeStrat1.class);
                     SelectSpotKafe.this.startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
                     Intent kafe = new Intent(SelectSpotKafe.this, KafeStrat2.class);
                     SelectSpotKafe.this.startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
                     Intent kafe = new Intent(SelectSpotKafe.this, KafeStrat3.class);
                     SelectSpotKafe.this.startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });
     }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
+
 }

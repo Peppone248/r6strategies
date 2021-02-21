@@ -60,6 +60,7 @@ public class mediumoregonstrat3 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
             carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

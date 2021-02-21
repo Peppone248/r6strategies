@@ -25,6 +25,11 @@ public class CLBStrat1 extends AppCompatActivity {
         setPagerAdapter();
         setTabLayout();
     }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
 
     private void setPagerAdapter(){
         myFragmentPagerAdapter1 = new com.example.r6strategies.clb.MyFragmentPagerAdapter1(getSupportFragmentManager());

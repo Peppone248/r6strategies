@@ -59,6 +59,7 @@ public class mediumbankstrat extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx));
             carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
             carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

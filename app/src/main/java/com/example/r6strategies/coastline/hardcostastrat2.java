@@ -60,6 +60,7 @@ public class hardcostastrat2 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
             carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
             carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

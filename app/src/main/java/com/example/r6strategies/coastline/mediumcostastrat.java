@@ -59,6 +59,7 @@ public class mediumcostastrat extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

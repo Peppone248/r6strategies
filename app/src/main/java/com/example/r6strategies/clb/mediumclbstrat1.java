@@ -58,6 +58,7 @@ public class mediumclbstrat1 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
             carItemList.add(new OperatorRecyclerViewItem("MOZZIE", R.drawable.mozzie));
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

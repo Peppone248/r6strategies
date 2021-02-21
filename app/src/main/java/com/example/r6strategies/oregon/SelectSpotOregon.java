@@ -35,23 +35,33 @@ public class SelectSpotOregon extends AppCompatActivity {
                 if(position==0){
                     Intent oregon = new Intent(SelectSpotOregon.this, OregonStrat.class);
                     SelectSpotOregon.this.startActivity(oregon);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
                     Intent oregon = new Intent(SelectSpotOregon.this, OregonStrat1.class);
                     SelectSpotOregon.this.startActivity(oregon);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
                     Intent oregon = new Intent(SelectSpotOregon.this, OregonStrat2.class);
                     SelectSpotOregon.this.startActivity(oregon);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
                     Intent oregon = new Intent(SelectSpotOregon.this, OregonStrat3.class);
                     SelectSpotOregon.this.startActivity(oregon);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });
 
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

@@ -59,6 +59,7 @@ public class hardkafestrat extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro));
             carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
             carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

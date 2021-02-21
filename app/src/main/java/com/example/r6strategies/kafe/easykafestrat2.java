@@ -60,6 +60,7 @@ public class easykafestrat2 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
             carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

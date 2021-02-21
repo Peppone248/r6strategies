@@ -60,6 +60,7 @@ public class mediumcostastrat1 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
             carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
             carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

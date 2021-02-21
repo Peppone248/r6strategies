@@ -61,6 +61,7 @@ public class mediumoregonstrat1 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil));
             carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
             carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

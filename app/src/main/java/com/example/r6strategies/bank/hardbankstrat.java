@@ -59,6 +59,7 @@ public class hardbankstrat extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
             carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
             carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

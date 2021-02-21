@@ -39,22 +39,31 @@ public class SelectSpotBank extends AppCompatActivity {
                 if(position==0){
                     Intent bank = new Intent(SelectSpotBank.this, BankStrat.class);
                     SelectSpotBank.this.startActivity(bank);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
                     Intent bank = new Intent(SelectSpotBank.this, BankStrat1.class);
                     SelectSpotBank.this.startActivity(bank);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
                     Intent bank = new Intent(SelectSpotBank.this, BankStrat2.class);
                     SelectSpotBank.this.startActivity(bank);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
                     Intent bank = new Intent(SelectSpotBank.this, BankStrat3.class);
                     SelectSpotBank.this.startActivity(bank);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

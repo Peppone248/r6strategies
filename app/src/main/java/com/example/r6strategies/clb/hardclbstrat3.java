@@ -59,6 +59,7 @@ public class hardclbstrat3 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
             carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse));
             carItemList.add(new OperatorRecyclerViewItem("GOYO", R.drawable.goyo));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -59,6 +59,7 @@ public class easyoregonstrat1 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("ECHO", R.drawable.echo));
             carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
             carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

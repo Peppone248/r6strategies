@@ -60,6 +60,7 @@ public class easybankstrat extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

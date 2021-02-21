@@ -34,20 +34,24 @@ public class SelectSpotCosta extends AppCompatActivity {
                 if(position==0){
                     Intent costa = new Intent(SelectSpotCosta.this, CostaStrat.class);
                     SelectSpotCosta.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
                     Intent costa = new Intent(SelectSpotCosta.this, CostaStrat1.class);
                     SelectSpotCosta.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
                     Intent costa = new Intent(SelectSpotCosta.this, CostaStrat2.class);
                     SelectSpotCosta.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
                     Intent costa = new Intent(SelectSpotCosta.this, CostaStrat3.class);
                     SelectSpotCosta.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });

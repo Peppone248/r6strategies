@@ -61,6 +61,7 @@ public class easykafestrat3 extends Fragment {
             carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
             carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
             carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }
