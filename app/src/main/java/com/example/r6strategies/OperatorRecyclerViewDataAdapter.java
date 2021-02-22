@@ -16,7 +16,7 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
 
         private List<OperatorRecyclerViewItem> carItemList;
 
-    public OperatorRecyclerViewDataAdapter(List<OperatorRecyclerViewItem> carItemList) {
+        public OperatorRecyclerViewDataAdapter(List<OperatorRecyclerViewItem> carItemList) {
             this.carItemList = carItemList;
         }
 
@@ -73,4 +73,5 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
             }
             return ret;
         }
+
     }

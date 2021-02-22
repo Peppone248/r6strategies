@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
             "Bank","Oregon",
             "Chalet", "Coastline",
             "Clubhouse", "Theme Park",
-            "Villa"
+            "Villa", "Kanal", "Consulate",
+            "Skyscraper"
     };
 
     String[] subtitle ={
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             "Sub Title 3","Sub Title 4",
             "Sub Title 5", "Sub Title 6",
             "Sub Title 7", "Sub Title 8",
-            "Sub Title 9"
+            "Sub Title 9", "Sub Title 10",
+            "Sub Title 11", "Sub Title 12"
     };
 
     Integer[] imgid={
@@ -40,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.bank,R.drawable.oregon,
             R.drawable.chalet, R.drawable.costa,
             R.drawable.clb, R.drawable.theme,
-            R.drawable.villa
+            R.drawable.villa, R.drawable.kanal,
+            R.drawable.consulate, R.drawable.skyscraper
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +100,18 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }
                  else if(position == 8) {
+
+                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                }
+                 else if(position == 9) {
+
+                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                }
+                 else if(position == 10) {
+
+                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                }
+                 else if(position == 11) {
 
                     Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }

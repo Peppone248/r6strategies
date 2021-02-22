@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_r6strats_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
-        <activity android:name=".bank.SelectSpotBank"></activity>
+        <activity android:name=".oregon.Valkyrie"></activity>
+        <activity android:name=".bank.SelectSpotBank" />
         <activity
             android:name=".Intro.Splash"
             android:theme="@style/Theme.R6strategies.noAction">
@@ -33,16 +34,16 @@
             android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".coastline.CostaStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".coastline.CostaStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".coastline.CostaStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".coastline.CostaStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity android:name=".coastline.SelectSpotCosta" />
         <activity android:name=".kafe.SelectSpotKafe" />
         <activity
@@ -59,29 +60,31 @@
             android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".clb.CLBStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".oregon.OregonStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".clb.CLBStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" /> />
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".clb.CLBStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" /> />
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".clb.CLBStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity android:name=".clb.SelectSpotCLB" />
-        <activity android:name=".oregon.OregonStrat2"
-                  android:theme="@style/Theme.R6strategies.noAction" />/>
+        <activity
+            android:name=".oregon.OregonStrat2"
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity
             android:name=".oregon.OregonStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
+            android:theme="@style/Theme.R6strategies.noAction" />
         <activity android:name=".oregon.SelectSpotOregon" />
-        <activity android:name=".oregon.OregonStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />/>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".oregon.OregonStrat"
+            android:theme="@style/Theme.R6strategies.noAction" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

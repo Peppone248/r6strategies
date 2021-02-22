@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_role"
+        android:icon="@drawable/valkyrie"
+        android:title="Ruolo"/>
+
+    <item
+        android:id="@+id/navigation_gadget"
+        android:icon="@drawable/valkyrie"
+        android:title="Gadget"/>
+
+    <item
+        android:id="@+id/navigation_loadout"
+        android:icon="@drawable/valkyrie"
+        android:title="Loadout"/>
+
+</menu>

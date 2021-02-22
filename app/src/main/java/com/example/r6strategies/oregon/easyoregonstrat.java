@@ -18,7 +18,7 @@ import com.example.r6strategies.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class easyoregonstrat extends Fragment {
+public class easyoregonstrat extends Fragment  {
 
 
     public easyoregonstrat() {
@@ -66,4 +66,5 @@ public class easyoregonstrat extends Fragment {
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }
+
 }
