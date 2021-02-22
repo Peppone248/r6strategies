@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
@@ -15,6 +16,8 @@ import java.util.List;
 public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<OperatorRecyclerViewItemHolder> {
 
         private List<OperatorRecyclerViewItem> carItemList;
+
+
 
         public OperatorRecyclerViewDataAdapter(List<OperatorRecyclerViewItem> carItemList) {
             this.carItemList = carItemList;
@@ -40,6 +43,9 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     // Create a snackbar and show it.
                     Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image", Snackbar.LENGTH_LONG);
                     snackbar.show();
+
+
+
                 }
             });
 

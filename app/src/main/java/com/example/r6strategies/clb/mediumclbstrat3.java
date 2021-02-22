@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -53,13 +54,14 @@ public class mediumclbstrat3 extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
+            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
-            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,os));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,os));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,os));
+            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi,os));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,os));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

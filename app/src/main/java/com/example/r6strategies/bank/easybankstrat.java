@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -54,14 +55,15 @@ public class easybankstrat extends Fragment {
     {
         if(carItemList == null)
         {
+            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
-            //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,os));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion,os));
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc,os));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,os));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,os));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
+
         }
     }
 }

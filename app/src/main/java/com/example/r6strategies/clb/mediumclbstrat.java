@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -54,13 +55,14 @@ public class mediumclbstrat extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
+            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
-            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni));
-            carItemList.add(new OperatorRecyclerViewItem("ECHO", R.drawable.echo));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,os));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,os));
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,os));
+            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni,os));
+            carItemList.add(new OperatorRecyclerViewItem("ECHO", R.drawable.echo,os));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

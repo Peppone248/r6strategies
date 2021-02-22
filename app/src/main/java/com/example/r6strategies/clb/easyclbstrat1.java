@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -53,13 +54,14 @@ public class easyclbstrat1 extends Fragment {
     private void initializeCarItemList() {
         if(carItemList == null)
         {
+            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc,os));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,os));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,os));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,os));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,os));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

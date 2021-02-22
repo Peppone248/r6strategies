@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.r6strategies.Modelli.OperatoreSpot;
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -54,13 +55,14 @@ public class easykafestrat2 extends Fragment {
     {
         if(carItemList == null)
         {
+            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,os));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,os));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion,os));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,os));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,os));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }
