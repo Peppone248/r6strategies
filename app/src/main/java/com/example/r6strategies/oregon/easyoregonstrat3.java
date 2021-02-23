@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.r6strategies.Modelli.OperatoreSpot;
+
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -57,14 +57,14 @@ public class easyoregonstrat3 extends Fragment {
     {
         if(carItemList == null)
         {
-            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
+
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,os));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,os));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,os));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,os));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,os));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

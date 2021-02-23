@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.r6strategies.Modelli.OperatoreSpot;
+
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -55,14 +55,14 @@ public class hardkafestrat2 extends Fragment {
     {
         if(carItemList == null)
         {
-            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
+
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,os));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,os));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,os));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,os));
-            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse,os));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
+            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

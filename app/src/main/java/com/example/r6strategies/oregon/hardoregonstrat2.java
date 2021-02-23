@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.r6strategies.Modelli.OperatoreSpot;
+
 import com.example.r6strategies.OperatorRecyclerViewDataAdapter;
 import com.example.r6strategies.OperatorRecyclerViewItem;
 import com.example.r6strategies.R;
@@ -56,14 +56,14 @@ public class hardoregonstrat2 extends Fragment {
     {
         if(carItemList == null)
         {
-            OperatoreSpot os = new OperatoreSpot(1,"a",1,1);
+
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,os));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,os));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,os));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,os));
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,os));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,os));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }
