@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_r6strats_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
-        <activity android:name=".oregon.Valkyrie"></activity>
+        <activity android:name=".Operatore"></activity>
         <activity android:name=".bank.SelectSpotBank" />
         <activity
             android:name=".Intro.Splash"

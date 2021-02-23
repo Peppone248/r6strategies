@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.r6strategies.oregon.Valkyrie;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
@@ -45,10 +44,9 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image" + carInfo.getText().toString(), Snackbar.LENGTH_LONG);
                     snackbar.show();
 
-
                     switch (carTitle){
                         case "VALKYRIE":
-                            v.getContext().startActivity(new Intent(v.getContext(), Valkyrie.class));
+                            v.getContext().startActivity(new Intent(v.getContext(), Operatore.class));
                     }
 
 
