@@ -57,7 +57,7 @@ public class easykafestrat extends Fragment {
         {
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
             carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"Spot kittemurt"));
             carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
             carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
             carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));

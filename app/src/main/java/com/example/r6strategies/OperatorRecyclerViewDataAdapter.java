@@ -32,6 +32,7 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
 
             // Get car title text view object.
             final TextView carTitleView = (TextView)carItemView.findViewById(R.id.card_view_image_title);
+            final TextView carInfo = (TextView)carItemView.findViewById(R.id.card_view_info);
             // Get car image view object.
             final ImageView carImageView = (ImageView)carItemView.findViewById(R.id.card_view_image);
             // When click the image.
@@ -41,7 +42,7 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     // Get car title text.
                     String carTitle = carTitleView.getText().toString();
                     // Create a snackbar and show it.
-                    Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image", Snackbar.LENGTH_LONG);
+                    Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image" + carInfo.getText().toString(), Snackbar.LENGTH_LONG);
                     snackbar.show();
 
 
@@ -72,6 +73,8 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     holder.getCarTitleText().setText(carItem.getCarName());
                     // Set car image resource id.
                     holder.getCarImageView().setImageResource(carItem.getCarImageId());
+
+                    holder.getCarInfo().setText(carItem.getInfo());
                 }
             }
         }
