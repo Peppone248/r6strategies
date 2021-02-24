@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_info"
-        android:icon="@drawable/valkyrie"
+        android:icon="@drawable/ic_info_operatore"
         android:title="Info"/>
 
     <item
         android:id="@+id/navigation_role"
-        android:icon="@drawable/valkyrie"
+        android:icon="@drawable/ic_info_operatore"
         android:title="Ruolo"/>
 
     <item
         android:id="@+id/navigation_gadget"
-        android:icon="@drawable/valkyrie"
+        android:icon="@drawable/ic_info_operatore"
         android:title="Gadget"/>
 
     <item
         android:id="@+id/navigation_loadout"
-        android:icon="@drawable/valkyrie"
+        android:icon="@drawable/ic_info_operatore"
         android:title="Loadout"/>
 
 </menu>

@@ -56,12 +56,12 @@ public class hardbankstrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"2-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"2-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"2-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,"2-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"2-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-0-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

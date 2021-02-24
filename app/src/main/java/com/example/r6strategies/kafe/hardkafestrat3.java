@@ -57,12 +57,12 @@ public class hardkafestrat3 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid));
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro));
-            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"0-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,"0-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"0-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion,"0-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-3-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -58,12 +58,12 @@ public class hardoregonstrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"3-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"3-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"3-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,"3-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"3-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"3-2-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

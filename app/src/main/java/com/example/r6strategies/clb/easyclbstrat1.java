@@ -56,12 +56,12 @@ public class easyclbstrat1 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc,"6-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,"6-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"6-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"6-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"6-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"6-1-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

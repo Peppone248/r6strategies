@@ -56,12 +56,12 @@ public class mediumcostastrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"5-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"5-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"5-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"5-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"5-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"5-0-2"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

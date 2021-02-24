@@ -56,13 +56,13 @@ public class mediumclbstrat3 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi));
-            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
-            //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"6-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"6-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"6-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ALIBI", R.drawable.alibi,"6-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"6-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"6-3-2"));
+
         }
     }
 }

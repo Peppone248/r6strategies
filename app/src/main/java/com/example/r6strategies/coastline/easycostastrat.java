@@ -57,12 +57,12 @@ public class easycostastrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni));
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,"5-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni,"5-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,"5-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"5-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"5-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"5-0-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

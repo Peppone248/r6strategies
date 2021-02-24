@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.r6strategies.modelli.OperatoreSpot;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
@@ -44,11 +45,16 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image" + carInfo.getText().toString(), Snackbar.LENGTH_LONG);
                     snackbar.show();
 
-                    switch (carTitle){
-                        case "VALKYRIE":
-                            v.getContext().startActivity(new Intent(v.getContext(), Operatore.class));
-                    }
+                    String [] split = carInfo.getText().toString().split("-");
+                    OperatoreSpot os = new OperatoreSpot();
+                    os.mappa= Integer.parseInt(split[0]);
+                    os.spot = Integer.parseInt(split[1]);
+                    os.diff = Integer.parseInt(split[2]);
 
+                    Intent i =new Intent(v.getContext(), Operatore.class);
+                    os.operatore=carTitle;
+                    i.putExtra("os",os);
+                    v.getContext().startActivity(i);
 
 
                 }

@@ -57,13 +57,13 @@ public class mediumkafestrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
-            //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-2-2"));
+
         }
     }
 }

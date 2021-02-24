@@ -57,12 +57,12 @@ public class hardcostastrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"5-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"5-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"5-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"5-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("ARUNI", R.drawable.aruni,"5-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"5-2-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

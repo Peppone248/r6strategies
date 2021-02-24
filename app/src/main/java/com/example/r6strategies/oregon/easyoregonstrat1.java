@@ -56,12 +56,12 @@ public class easyoregonstrat1 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("ECHO", R.drawable.echo));
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"3-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"3-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ECHO", R.drawable.echo,"3-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc,"3-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"3-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"3-1-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -56,12 +56,12 @@ public class hardclbstrat3 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi));
-            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse));
-            carItemList.add(new OperatorRecyclerViewItem("GOYO", R.drawable.goyo));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"6-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"6-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"6-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse,"6-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("GOYO", R.drawable.goyo,"6-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"6-3-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

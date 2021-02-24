@@ -57,12 +57,12 @@ public class easybankstrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan));
-            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion));
-            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,"2-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("LESION", R.drawable.lesion,"2-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("DOC", R.drawable.doc,"2-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"2-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"2-0-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-0-1"));
 
         }
     }

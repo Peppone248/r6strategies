@@ -56,12 +56,12 @@ public class mediumbankstrat3 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"2-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"2-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"2-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"2-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"2-3-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-3-2"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

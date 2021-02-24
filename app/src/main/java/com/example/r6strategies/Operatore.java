@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.r6strategies.modelli.OperatoreSpot;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Operatore extends AppCompatActivity {
@@ -21,8 +23,16 @@ public class Operatore extends AppCompatActivity {
     final FragmentManager fm = getSupportFragmentManager();
     Fragment active = fragment1;
 
+    OperatoreSpot os;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //prendo i dati
+        Intent i = getIntent();
+        os = (OperatoreSpot) i.getSerializableExtra("os");
+        System.out.println(os.operatore+"-"+os.mappa+"-"+os.spot+"-"+os.diff);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operatore);
         navView = findViewById(R.id.navigationView);
