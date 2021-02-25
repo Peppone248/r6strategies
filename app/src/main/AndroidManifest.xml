@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
         <activity android:name=".Operatore"
-                  android:theme="@style/Theme.R6strategies.operatore"/>
-        <activity android:name=".bank.SelectSpotBank" />
+                  android:theme="@style/Theme.R6strategies.operatore"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bank.SelectSpotBank"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Intro.Splash"
-            android:theme="@style/Theme.R6strategies.noAction">
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,69 +26,94 @@
         </activity>
         <activity
             android:name=".bank.BankStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".bank.BankStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".bank.BankStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".bank.BankStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".coastline.CostaStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".coastline.CostaStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".coastline.CostaStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".coastline.CostaStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />
-        <activity android:name=".coastline.SelectSpotCosta" />
-        <activity android:name=".kafe.SelectSpotKafe" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".coastline.SelectSpotCosta"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".kafe.SelectSpotKafe"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".kafe.KafeStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".kafe.KafeStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".kafe.KafeStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".kafe.KafeStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".clb.CLBStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".oregon.OregonStrat3"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".clb.CLBStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".clb.CLBStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".clb.CLBStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />
-        <activity android:name=".clb.SelectSpotCLB" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".clb.SelectSpotCLB"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".oregon.OregonStrat2"
-            android:theme="@style/Theme.R6strategies.noAction" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".oregon.OregonStrat1"
-            android:theme="@style/Theme.R6strategies.noAction" />
-        <activity android:name=".oregon.SelectSpotOregon" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".oregon.SelectSpotOregon"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".oregon.OregonStrat"
-            android:theme="@style/Theme.R6strategies.noAction" />
-        <activity android:name=".MainActivity" />
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

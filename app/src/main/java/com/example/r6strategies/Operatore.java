@@ -32,12 +32,18 @@ public class Operatore extends AppCompatActivity {
         Intent i = getIntent();
         os = (OperatoreSpot) i.getSerializableExtra("os");
         System.out.println(os.operatore+"-"+os.mappa+"-"+os.spot+"-"+os.diff);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("os", os);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operatore);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         navView = findViewById(R.id.navigationView);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
+        fragment1.setArguments(bundle);
+        fragment2.setArguments(bundle);
+        fragment3.setArguments(bundle);
+        fragment4.setArguments(bundle);
         fm.beginTransaction().add(R.id.main_container, fragment4, "3").hide(fragment4).commit();
         fm.beginTransaction().add(R.id.main_container, fragment3, "3").hide(fragment3).commit();
         fm.beginTransaction().add(R.id.main_container, fragment2, "2").hide(fragment2).commit();
@@ -47,9 +53,13 @@ public class Operatore extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+
+
             switch (item.getItemId()){
                 case R.id.navigation_info:
                     Toast.makeText(Operatore.this, "INFO", Toast.LENGTH_SHORT).show();
+
                     fm.beginTransaction().hide(active).show(fragment1).commit();
                     active = fragment1;
                     return true;
@@ -73,4 +83,10 @@ public class Operatore extends AppCompatActivity {
             return false;
         }
     };
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
 }

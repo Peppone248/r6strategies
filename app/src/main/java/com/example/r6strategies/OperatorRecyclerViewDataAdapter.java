@@ -41,9 +41,6 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                 public void onClick(View v) {
                     // Get car title text.
                     String carTitle = carTitleView.getText().toString();
-                    // Create a snackbar and show it.
-                    Snackbar snackbar = Snackbar.make(carImageView, "You click " + carTitle +" image" + carInfo.getText().toString(), Snackbar.LENGTH_LONG);
-                    snackbar.show();
 
                     String [] split = carInfo.getText().toString().split("-");
                     OperatoreSpot os = new OperatoreSpot();
@@ -55,6 +52,7 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     os.operatore=carTitle;
                     i.putExtra("os",os);
                     v.getContext().startActivity(i);
+
 
 
                 }

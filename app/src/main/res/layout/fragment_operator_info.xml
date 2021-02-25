@@ -12,11 +12,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/image_operator"
-        android:layout_width="220dp"
-        android:layout_height="200dp"
-        android:background="@drawable/valkr6" />
+        <ImageView
+            android:id="@+id/image_operator"
+            android:layout_width="220dp"
+            android:layout_height="200dp" />
         <TextView
             android:id="@+id/name_operator"
             android:layout_width="180dp"
