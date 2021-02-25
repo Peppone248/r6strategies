@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
         <activity android:name=".Operatore"
-            android:theme="@style/Theme.R6strategies.operatore"/>
+                  android:theme="@style/Theme.R6strategies.operatore"/>
         <activity android:name=".bank.SelectSpotBank" />
         <activity
             android:name=".Intro.Splash"
