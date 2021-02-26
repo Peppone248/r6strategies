@@ -8,6 +8,11 @@
     android:background="@color/bg"
     tools:context=".Operatore">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_navView"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/navigationView"
+        android:layout_height="match_parent"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigationView"

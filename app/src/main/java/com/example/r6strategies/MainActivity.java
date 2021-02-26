@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
 
-
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
