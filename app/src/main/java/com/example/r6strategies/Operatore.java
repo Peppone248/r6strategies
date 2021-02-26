@@ -17,6 +17,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class Operatore extends AppCompatActivity {
 
     private BottomNavigationView navView;
+    private ViewPager viewPager;
     final Fragment fragment1 = new OperatoreInfo();
     final Fragment fragment2 = new OperatoreRole();
     final Fragment fragment3 = new OperatoreGadget();
@@ -41,6 +42,7 @@ public class Operatore extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         navView = findViewById(R.id.navigationView);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        viewPager = (ViewPager) findViewById(R.id.view_pager_navView);
         fragment1.setArguments(bundle);
         fragment2.setArguments(bundle);
         fragment3.setArguments(bundle);
