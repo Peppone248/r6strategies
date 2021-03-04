@@ -97,9 +97,9 @@ public class OperatoreInfo extends Fragment {
                 radioButton9.setChecked(false);
                 break;
             case"SMOKE":
-                flag.setImageResource(R.drawable.flagusa);
+                imOp.setImageResource(R.drawable.opsmoke);
+                flag.setImageResource(R.drawable.britainflag);
                 aff.setText("SAS");
-                imOp.setImageResource(R.drawable.britainflag);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -267,7 +267,7 @@ public class OperatoreInfo extends Fragment {
                 radioButton8.setChecked(false);
                 radioButton9.setChecked(false);
                 break;
-            case"CAIVERA":
+            case"CAVEIRA":
                 imOp.setImageResource(R.drawable.opcaveira);
                 flag.setImageResource(R.drawable.brazilflag);
                 aff.setText("BOPE");
@@ -402,6 +402,23 @@ public class OperatoreInfo extends Fragment {
                 radioButton7.setChecked(true);
                 radioButton8.setChecked(true);
                 radioButton9.setChecked(false);
+                break;
+            case"ECHO":
+                imOp.setImageResource(R.drawable.opecho);
+                flag.setImageResource(R.drawable.japanflag);
+                aff.setText("S.A.T.");
+                //COR
+                radioButton1.setChecked(true);
+                radioButton2.setChecked(true);
+                radioButton3.setChecked(true);
+                //VEL
+                radioButton4.setChecked(true);
+                radioButton5.setChecked(false);
+                radioButton6.setChecked(false);
+                //DIFF
+                radioButton7.setChecked(true);
+                radioButton8.setChecked(true);
+                radioButton9.setChecked(true);
                 break;
             case"PULSE":
                 imOp.setImageResource(R.drawable.oppulse);

@@ -42,211 +42,218 @@ public class OperatoreLoadout extends Fragment {
                 tgad.setText("NITRO-CELL");
                 break;
             case"BANDIT":
-                prim.setImageResource(R.drawable.primarybandit);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarybandit);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.mp7);
+                tPrim.setText("MP7");
+                sec.setImageResource(R.drawable.p12);
+                tSec.setText("P12");
                 gad.setImageResource(R.drawable.nitrocell);
                 tgad.setText("NITRO-CELL");
                 break;
             case"MUTE":
-                prim.setImageResource(R.drawable.primarymute);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.d50);//manca la secondaria di mute
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.mp5k);
+                tPrim.setText("MP5K");
+                sec.setImageResource(R.drawable.smg11);//manca la secondaria di mute
+                tSec.setText("SMG-11");
                 gad.setImageResource(R.drawable.nitrocell);
                 tgad.setText("NITRO-CELL");
                 break;
             case"SMOKE":
-                prim.setImageResource(R.drawable.primarysmoke);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarysmoke);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.m590a1);
+                tPrim.setText("M590A1");
+                sec.setImageResource(R.drawable.smg11);
+                tSec.setText("SMG-11");
                 gad.setImageResource(R.drawable.shield);
                 tgad.setText("SHIELD");
                 break;
             case"MELUSI":
-                prim.setImageResource(R.drawable.primaryrook);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarymelusi);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.mp5);
+                tPrim.setText("MP5");
+                sec.setImageResource(R.drawable.rg15);
+                tSec.setText("RG15");
                 gad.setImageResource(R.drawable.nitrocell);//manca gadget melusi
-                tgad.setText("NITRO-CELL");
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"MIRA":
-                prim.setImageResource(R.drawable.primarymira);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarymira);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.vector45acp);
+                tPrim.setText("VECTOR .45 ACP");
+                sec.setImageResource(R.drawable.ita12s);
+                tSec.setText("ITA12S");
                 gad.setImageResource(R.drawable.nitrocell);
                 tgad.setText("NITRO-CELL");
                 break;
             case"VIGIL":
-                prim.setImageResource(R.drawable.primaryvigil);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryvigil);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.nitrocell);//manca gadget vigil
-                tgad.setText("NITRO-CELL");
-
+                prim.setImageResource(R.drawable.k1a);
+                tPrim.setText("K1A");
+                sec.setImageResource(R.drawable.smg12);
+                tSec.setText("SMG-12");
+                gad.setImageResource(R.drawable.impactgrenade);//manca gadget vigil
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"KAID":
-                prim.setImageResource(R.drawable.primarykaid);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarykaid);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.auga3);
+                tPrim.setText("AUG A3");
+                sec.setImageResource(R.drawable.kaid44magsemiauto);
+                tSec.setText(".44 MAG SEMI-AUTO");
                 gad.setImageResource(R.drawable.nitrocell);
                 tgad.setText("NITRO-CELL");
                 break;
             case"ARUNI":
-                prim.setImageResource(R.drawable.primaryaruni);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryaruni);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.nitrocell);//manca gagdet aruni
-                tgad.setText("NITRO-CELL");
+                prim.setImageResource(R.drawable.p10roni);
+                tPrim.setText("P10 RONI");
+                sec.setImageResource(R.drawable.prb92);
+                tSec.setText("PRB92");
+                gad.setImageResource(R.drawable.barbedwire);//manca gagdet aruni
+                tgad.setText("BARBED WIRE");
+                break;
+            case"ECHO":
+                prim.setImageResource(R.drawable.mp5sd);
+                tPrim.setText("MP5SD");
+                sec.setImageResource(R.drawable.bearing9);
+                tSec.setText("BEARING 9");
+                gad.setImageResource(R.drawable.shield);
+                tgad.setText("SHIELD");
                 break;
             case"ALIBI":
-                prim.setImageResource(R.drawable.primaryalibi);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryalibi);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.nitrocell);//manca gadget aruni
-                tgad.setText("NITRO-CELL");
+                prim.setImageResource(R.drawable.mx4storm);
+                tPrim.setText("MX4 STORM");
+                sec.setImageResource(R.drawable.bailiff410);
+                tSec.setText("BAILIFF 410");
+                gad.setImageResource(R.drawable.shield);//manca gadget aruni
+                tgad.setText("SHIELD");
                 break;
             case"FROST":
-                prim.setImageResource(R.drawable.primaryfrost);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.frost9mmc1);
+                tPrim.setText("9MM C1");
+                sec.setImageResource(R.drawable.ita12s);
+                tSec.setText("ITA12S");
                 gad.setImageResource(R.drawable.shield);
                 tgad.setText("SHIELD");
                 break;
             case"LESION":
-                prim.setImageResource(R.drawable.primarylesion);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarylesion);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//mancano le granate
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.t5smg);
+                tPrim.setText("T-5 SMG");
+                sec.setImageResource(R.drawable.q929);
+                tSec.setText("Q929");
+                gad.setImageResource(R.drawable.impactgrenade);//mancano le granate
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"ELA":
-                prim.setImageResource(R.drawable.primaryela);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryela);
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.scorpionevo3a1);
+                tPrim.setText("SCORPION EVO 3 A1");
+                sec.setImageResource(R.drawable.rg15);
+                tSec.setText("RG15");
                 gad.setImageResource(R.drawable.shield);
                 tgad.setText("SHIELD");
                 break;
-            case"CAIVERA":
-                prim.setImageResource(R.drawable.primarycaveira);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarycaveira);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);
-                tgad.setText("SHIELD");
+            case"CAVEIRA":
+                prim.setImageResource(R.drawable.m12);
+                tPrim.setText("M12");
+                sec.setImageResource(R.drawable.luison);
+                tSec.setText("LUISON");
+                gad.setImageResource(R.drawable.impactgrenade);
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"GOYO":
-                prim.setImageResource(R.drawable.primarymira);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarygoyo);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget goyo
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.vector45acp);
+                tPrim.setText("VECTOR .45 ACP");
+                sec.setImageResource(R.drawable.p229rc);
+                tSec.setText("P229 RC");
+                gad.setImageResource(R.drawable.nitrocell);//gadget goyo
+                tgad.setText("NITRO-CELL");
                 break;
             case"JAGER":
-                prim.setImageResource(R.drawable.primaryjager);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);//secondaria jager?
-                tSec.setText("D-50");
+                prim.setImageResource(R.drawable.carabine416c);
+                tPrim.setText("416-C CARABINE");
+                sec.setImageResource(R.drawable.p12);//secondaria jager?
+                tSec.setText("P12");
                 gad.setImageResource(R.drawable.barbedwire);
                 tgad.setText("BARBED WIRE");
                 break;
             case"MAESTRO":
-                prim.setImageResource(R.drawable.primarymaestro);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);//secondaria maestro
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//granate
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.alda556);
+                tPrim.setText("ALDA 5.56");
+                sec.setImageResource(R.drawable.bailiff410);//secondaria maestro
+                tSec.setText("BAILIFF 410");
+                gad.setImageResource(R.drawable.impactgrenade);//granate
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"MOZZIE":
-                prim.setImageResource(R.drawable.primarymozzie);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarymozzie);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.barbedwire);//gagdet mozzie
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.commando9);
+                tPrim.setText("COMMANDO 9");
+                sec.setImageResource(R.drawable.sdp9mm);
+                tSec.setText("SDP 9MM");
+                gad.setImageResource(R.drawable.nitrocell);//gagdet mozzie
+                tgad.setText("NITRO-CELL");
                 break;
             case"ORYX":
-                prim.setImageResource(R.drawable.primarylesion);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);//secondaria oryx
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget oryx
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.t5smg);
+                tPrim.setText("T-5 SMG");
+                sec.setImageResource(R.drawable.bailiff410);//secondaria oryx
+                tSec.setText("BAILIFF 410");
+                gad.setImageResource(R.drawable.alarm);//gadget oryx
+                tgad.setText("ALARM");
                 break;
             case"TACHANKA":
-                prim.setImageResource(R.drawable.primarytachanka);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);//secondaria aborto
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.barbedwire);//non prende il riferimento al drawable alarm
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.dp27);
+                tPrim.setText("DP27");
+                sec.setImageResource(R.drawable.gsh18);//secondaria aborto
+                tSec.setText("GSH-18");
+                gad.setImageResource(R.drawable.alarm);//non prende il riferimento al drawable alarm
+                tgad.setText("ALARM");
                 break;
             case"WAMAI":
-                prim.setImageResource(R.drawable.primarywamai);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarywamai);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget wamai
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.auga2);
+                tPrim.setText("AUG A2");
+                sec.setImageResource(R.drawable.d40);
+                tSec.setText("D-40");
+                gad.setImageResource(R.drawable.impactgrenade);//gadget wamai
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"PULSE":
-                prim.setImageResource(R.drawable.primarypulse);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarypulse);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget pulse
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.m1014);
+                tPrim.setText("M1014");
+                sec.setImageResource(R.drawable.m45meusoc);
+                tSec.setText("M45 MEUSOC");
+                gad.setImageResource(R.drawable.nitrocell);//gadget pulse
+                tgad.setText("NITRO-CELL");
                 break;
             case"KAPKAN":
-                prim.setImageResource(R.drawable.primarykapkan);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarykapkan);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadgetkapkan
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.k9x19vsn);
+                tPrim.setText("9X19VSN");
+                sec.setImageResource(R.drawable.gsh18);
+                tSec.setText("GSH-18");
+                gad.setImageResource(R.drawable.nitrocell);//gadgetkapkan
+                tgad.setText("NITRO-CELL");
                 break;
             case"DOC":
-                prim.setImageResource(R.drawable.primaryrook);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryfrost);//secondaria doc
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.barbedwire);
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.mp5);
+                tPrim.setText("MP5");
+                sec.setImageResource(R.drawable.lfp586);//secondaria doc
+                tSec.setText("LFP586");
+                gad.setImageResource(R.drawable.camerabullet);
+                tgad.setText("BULLETPROOF CAMERA");
                 break;
             case"ROOK":
-                prim.setImageResource(R.drawable.primaryrook);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondaryrook);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget rook
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.mp5);
+                tPrim.setText("MP5");
+                sec.setImageResource(R.drawable.lfp586);
+                tSec.setText("LFP586");
+                gad.setImageResource(R.drawable.impactgrenade);//gadget rook
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"CASTLE":
-                prim.setImageResource(R.drawable.primarycastle);
-                tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.secondarycastle);
-                tSec.setText("D-50");
-                gad.setImageResource(R.drawable.shield);//gadget castle
-                tgad.setText("SHIELD");
+                prim.setImageResource(R.drawable.ump45);
+                tPrim.setText("UPM45");
+                sec.setImageResource(R.drawable.supershorty);
+                tSec.setText("SUPER SHORTY");
+                gad.setImageResource(R.drawable.impactgrenade);//gadget castle
+                tgad.setText("IMPACT GRENADE");
                 break;
             case"WARDEN":
                 prim.setImageResource(R.drawable.mpx);
                 tPrim.setText("MPX");
-                sec.setImageResource(R.drawable.d50);
-                tSec.setText("D-50");
+                sec.setImageResource(R.drawable.smg12);
+                tSec.setText("SMG-12");
                 gad.setImageResource(R.drawable.nitrocell);
                 tgad.setText("NITRO-CELL");
                 break;
