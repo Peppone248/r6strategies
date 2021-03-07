@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.r6strategies.bank.SelectSpotBank;
+import com.example.r6strategies.border.SelectSpotBorder;
 import com.example.r6strategies.clb.SelectSpotCLB;
 import com.example.r6strategies.coastline.SelectSpotCosta;
 import com.example.r6strategies.kafe.SelectSpotKafe;
@@ -22,35 +23,25 @@ public class MainActivity extends AppCompatActivity {
     String[] maintitle ={
             "Kafe","Border",
             "Bank","Oregon",
-            "Chalet", "Coastline",
+            "Kanal", "Coastline",
             "Clubhouse", "Theme Park",
-            "Villa", "Kanal", "Consulate",
-            "Skyscraper"
+            "Villa", "Skyscraper"
     };
 
-    String[] subtitle ={
-            "Sub Title 1","Sub Title 2",
-            "Sub Title 3","Sub Title 4",
-            "Sub Title 5", "Sub Title 6",
-            "Sub Title 7", "Sub Title 8",
-            "Sub Title 9", "Sub Title 10",
-            "Sub Title 11", "Sub Title 12"
-    };
 
     Integer[] imgid={
             R.drawable.kafe,R.drawable.border,
             R.drawable.bank,R.drawable.oregon,
-            R.drawable.chalet, R.drawable.costa,
+            R.drawable.kanal, R.drawable.costa,
             R.drawable.clb, R.drawable.theme,
-            R.drawable.villa, R.drawable.kanal,
-            R.drawable.consulate, R.drawable.skyscraper
+            R.drawable.villa, R.drawable.skyscraper
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyListAdapter adapter=new MyListAdapter(this, maintitle, subtitle, imgid);
+        MyListAdapter adapter=new MyListAdapter(this, maintitle, imgid);
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
 
@@ -65,8 +56,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 else if(position == 1) {
-                    //code specific to 2nd list item
-                    Toast.makeText(getApplicationContext(),"Place Your Second Option Code",Toast.LENGTH_SHORT).show();
+                    Intent kafe = new Intent(getApplicationContext(), SelectSpotBorder.class);
+                    startActivity(kafe);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
@@ -103,14 +95,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }
                  else if(position == 9) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
-                }
-                 else if(position == 10) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
-                }
-                 else if(position == 11) {
 
                     Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }

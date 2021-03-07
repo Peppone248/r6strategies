@@ -164,7 +164,7 @@ public class OperatoreLoadout extends Fragment {
             case"JAGER":
                 prim.setImageResource(R.drawable.carabine416c);
                 tPrim.setText("416-C CARABINE");
-                sec.setImageResource(R.drawable.p12);//secondaria jager?
+                sec.setImageResource(R.drawable.p12);
                 tSec.setText("P12");
                 gad.setImageResource(R.drawable.barbedwire);
                 tgad.setText("BARBED WIRE");
@@ -196,9 +196,9 @@ public class OperatoreLoadout extends Fragment {
             case"TACHANKA":
                 prim.setImageResource(R.drawable.dp27);
                 tPrim.setText("DP27");
-                sec.setImageResource(R.drawable.gsh18);//secondaria aborto
+                sec.setImageResource(R.drawable.gsh18);
                 tSec.setText("GSH-18");
-                gad.setImageResource(R.drawable.alarm);//non prende il riferimento al drawable alarm
+                gad.setImageResource(R.drawable.alarm);
                 tgad.setText("ALARM");
                 break;
             case"WAMAI":

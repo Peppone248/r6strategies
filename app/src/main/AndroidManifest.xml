@@ -24,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".bank.BankStrat"
             android:theme="@style/Theme.R6strategies.noAction"
@@ -40,6 +42,31 @@
             android:name=".bank.BankStrat3"
             android:theme="@style/Theme.R6strategies.noAction"
             android:screenOrientation="portrait"/>
+
+
+
+        <activity android:name=".border.SelectSpotBorder"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".border.BorderStrat"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".border.BorderStrat1"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".border.BorderStrat2"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".border.BorderStrat3"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+
+
+
+
         <activity
             android:name=".coastline.CostaStrat"
             android:theme="@style/Theme.R6strategies.noAction"
