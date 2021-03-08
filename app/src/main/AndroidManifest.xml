@@ -105,6 +105,26 @@
             android:screenOrientation="portrait"/>
 
 
+        <activity android:name=".theme.SelectSpotTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".theme.themeStrat"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".theme.themeStrat1"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".theme.themeStrat2"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".theme.themeStrat3"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+
+
         <activity
             android:name=".coastline.CostaStrat"
             android:theme="@style/Theme.R6strategies.noAction"
