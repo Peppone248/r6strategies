@@ -14,6 +14,7 @@ import com.example.r6strategies.border.SelectSpotBorder;
 import com.example.r6strategies.clb.SelectSpotCLB;
 import com.example.r6strategies.coastline.SelectSpotCosta;
 import com.example.r6strategies.kafe.SelectSpotKafe;
+import com.example.r6strategies.kanal.SelectSpotKanal;
 import com.example.r6strategies.oregon.SelectSpotOregon;
 
 
@@ -73,13 +74,12 @@ public class MainActivity extends AppCompatActivity {
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 4) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Fifth Option Code",Toast.LENGTH_SHORT).show();
+                    Intent kanal = new Intent(MainActivity.this, SelectSpotKanal.class);
+                    MainActivity.this.startActivity(kanal);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 5) {
-                    Intent costa = new Intent(MainActivity.this, SelectSpotCosta.class);
-                    MainActivity.this.startActivity(costa);
-                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
                 }
                  else if(position == 6) {
                      Intent clb = new Intent(MainActivity.this, SelectSpotCLB.class);

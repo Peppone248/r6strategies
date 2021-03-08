@@ -65,6 +65,27 @@
             android:screenOrientation="portrait"/>
 
 
+        <activity android:name=".kanal.SelectSpotKanal"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kanal.kanalStrat"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kanal.kanalStrat1"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kanal.kanalStrat2"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kanal.kanalStrat3"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+
+
+
 
 
         <activity
