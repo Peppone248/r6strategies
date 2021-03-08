@@ -16,6 +16,7 @@ import com.example.r6strategies.coastline.SelectSpotCosta;
 import com.example.r6strategies.kafe.SelectSpotKafe;
 import com.example.r6strategies.kanal.SelectSpotKanal;
 import com.example.r6strategies.oregon.SelectSpotOregon;
+import com.example.r6strategies.skyscraper.SelectSpotSkyscraper;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -79,7 +80,9 @@ public class MainActivity extends AppCompatActivity {
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 5) {
-
+                    Intent costa = new Intent(MainActivity.this, SelectSpotCosta.class);
+                    MainActivity.this.startActivity(costa);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 6) {
                      Intent clb = new Intent(MainActivity.this, SelectSpotCLB.class);
@@ -95,8 +98,9 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
                 }
                  else if(position == 9) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                    Intent sky = new Intent(MainActivity.this, SelectSpotSkyscraper.class);
+                    MainActivity.this.startActivity(sky);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });

@@ -85,7 +85,24 @@
             android:screenOrientation="portrait"/>
 
 
-
+        <activity android:name=".skyscraper.SelectSpotSkyscraper"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".skyscraper.skyscraperStrat"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".skyscraper.skyscraperStrat1"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".skyscraper.skyscraperStrat2"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".skyscraper.skyscraperStrat3"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
 
 
         <activity
