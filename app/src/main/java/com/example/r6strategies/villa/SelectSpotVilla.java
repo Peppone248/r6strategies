@@ -1,4 +1,4 @@
-package com.example.r6strategies.theme;
+package com.example.r6strategies.villa;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +11,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.r6strategies.MyListRadioAdapter;
 import com.example.r6strategies.R;
 
-public class SelectSpotTheme extends AppCompatActivity {
+public class SelectSpotVilla extends AppCompatActivity {
 
     ListView list;
 
     public String[] maintitle ={
-            "2F Initiation Room\n2F Office","2F Bunk\n2F Day Care",
-            "1F Armory\n1F Throne Room","1F Lab\n1F Storage"
+            "2F Aviator Room\n2F Games Room","2F Trophy Roomk\n2F Statuary Room",
+            "1F Living Room\n1F Library","1F Dining Room\n1F Kitchen"
     };
 
     @Override
@@ -32,25 +32,25 @@ public class SelectSpotTheme extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(position==0){
-                    Intent theme = new Intent(SelectSpotTheme.this, themeStrat.class);
-                    SelectSpotTheme.this.startActivity(theme);
+                    Intent villa = new Intent(SelectSpotVilla.this, villaStrat.class);
+                    SelectSpotVilla.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
                 }
                 else if(position == 1) {
-                    Intent theme = new Intent(SelectSpotTheme.this, themeStrat1.class);
-                    SelectSpotTheme.this.startActivity(theme);
+                    Intent villa = new Intent(SelectSpotVilla.this, villaStrat1.class);
+                    SelectSpotVilla.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
                 else if(position == 2) {
-                    Intent theme = new Intent(SelectSpotTheme.this, themeStrat2.class);
-                    SelectSpotTheme.this.startActivity(theme);
+                    Intent villa = new Intent(SelectSpotVilla.this, villaStrat2.class);
+                    SelectSpotVilla.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                 else if(position == 3) {
-                    Intent theme = new Intent(SelectSpotTheme.this, themeStrat3.class);
-                    SelectSpotTheme.this.startActivity(theme);
+                    Intent villa = new Intent(SelectSpotVilla.this, villaStrat3.class);
+                    SelectSpotVilla.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }

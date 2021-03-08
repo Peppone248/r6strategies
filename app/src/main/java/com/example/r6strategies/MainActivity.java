@@ -18,6 +18,7 @@ import com.example.r6strategies.kanal.SelectSpotKanal;
 import com.example.r6strategies.oregon.SelectSpotOregon;
 import com.example.r6strategies.skyscraper.SelectSpotSkyscraper;
 import com.example.r6strategies.theme.SelectSpotTheme;
+import com.example.r6strategies.villa.SelectSpotVilla;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -97,12 +98,13 @@ public class MainActivity extends AppCompatActivity {
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 8) {
-
-                    Toast.makeText(getApplicationContext(),"Place Your Third Option Code",Toast.LENGTH_SHORT).show();
+                    Intent theme = new Intent(MainActivity.this, SelectSpotTheme.class);
+                    MainActivity.this.startActivity(theme);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 9) {
-                    Intent sky = new Intent(MainActivity.this, SelectSpotSkyscraper.class);
-                    MainActivity.this.startActivity(sky);
+                    Intent villa = new Intent(MainActivity.this, SelectSpotVilla.class);
+                    MainActivity.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }

@@ -124,6 +124,25 @@
             android:theme="@style/Theme.R6strategies.noAction"
             android:screenOrientation="portrait"/>
 
+        <activity android:name=".villa.SelectSpotVilla"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".villa.villaStrat"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".villa.villaStrat1"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".villa.villaStrat2"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".villa.villaStrat3"
+            android:theme="@style/Theme.R6strategies.noAction"
+            android:screenOrientation="portrait"/>
+
 
         <activity
             android:name=".coastline.CostaStrat"
