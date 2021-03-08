@@ -196,42 +196,6 @@
                 android:clickable="false" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:orientation="horizontal">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="40dp"
-            android:fontFamily="@font/scoutcond"
-            android:shadowColor="@color/white"
-            android:text="Gadget:"
-            android:textColor="@color/white"
-            android:textSize="40sp" />
-
-        <TextView
-            android:id="@+id/descrizione_gadget"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="35dp"
-            android:fontFamily="@font/scoutcond"
-            android:shadowColor="@color/white"
-            android:text="INSERIRE QUI DESCRIZIONE GADGET"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="italic" />
-        </LinearLayout>
     </LinearLayout>
-
-
-
-
-
-
-
 
 </LinearLayout>

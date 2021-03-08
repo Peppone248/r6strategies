@@ -12,12 +12,12 @@
 
     <item
         android:id="@+id/navigation_gadget"
-        android:icon="@drawable/ic_info_operatore"
+        android:icon="@drawable/gadget"
         android:title="Gadget"/>
 
     <item
         android:id="@+id/navigation_loadout"
-        android:icon="@drawable/ic_info_operatore"
+        android:icon="@drawable/loadouticon"
         android:title="Loadout"/>
 
 </menu>
