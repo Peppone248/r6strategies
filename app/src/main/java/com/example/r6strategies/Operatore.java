@@ -33,7 +33,7 @@ public class Operatore extends AppCompatActivity {
         //prendo i dati
         Intent i = getIntent();
         os = (OperatoreSpot) i.getSerializableExtra("os");
-        System.out.println(os.operatore+"-"+os.mappa+"-"+os.spot+"-"+os.diff);
+
         Bundle bundle = new Bundle();
         bundle.putSerializable("os", os);
         super.onCreate(savedInstanceState);
