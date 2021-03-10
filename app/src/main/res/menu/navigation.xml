@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/navigation_role"
-        android:icon="@drawable/ic_info_operatore"
+        android:icon="@drawable/role"
         android:title="Ruolo"/>
 
     <item
