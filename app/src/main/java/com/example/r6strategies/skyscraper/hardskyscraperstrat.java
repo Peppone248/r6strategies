@@ -56,12 +56,12 @@ public class hardskyscraperstrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"9-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"9-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"9-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"9-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"9-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"9-0-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

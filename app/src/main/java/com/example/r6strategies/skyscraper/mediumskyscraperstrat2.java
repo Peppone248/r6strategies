@@ -57,12 +57,12 @@ public class mediumskyscraperstrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"9-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"9-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"9-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"9-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"9-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"9-2-2"));
 
         }
     }

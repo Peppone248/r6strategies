@@ -57,12 +57,12 @@ public class mediumkanalstrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"0-2-2"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"4-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VIGIL", R.drawable.vigil,"4-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"4-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"4-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"4-2-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"4-2-2"));
 
         }
     }

@@ -57,12 +57,12 @@ public class hardvillastrat2 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"0-2-3"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-2-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-2-3"));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-2-3"));
-            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse,"0-2-3"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"8-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"8-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"8-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"8-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("PULSE", R.drawable.pulse,"8-2-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"8-2-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

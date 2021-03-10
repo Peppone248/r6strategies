@@ -56,12 +56,12 @@ public class mediumthemestrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"0-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"0-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("MOZZIE", R.drawable.mozzie,"0-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"7-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"7-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"7-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MUTE", R.drawable.mute,"7-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("MOZZIE", R.drawable.mozzie,"7-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"7-0-2"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

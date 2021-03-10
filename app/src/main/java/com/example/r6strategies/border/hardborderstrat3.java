@@ -57,12 +57,12 @@ public class hardborderstrat3 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"2-3-3"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"2-3-3"));
-            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,"2-3-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"2-3-3"));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"2-3-3"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("SMOKE", R.drawable.smoke,"1-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"1-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,"1-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MELUSI", R.drawable.melusi,"1-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"1-3-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"1-3-3"));
 
         }
     }

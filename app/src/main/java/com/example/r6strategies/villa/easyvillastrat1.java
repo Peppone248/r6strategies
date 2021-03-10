@@ -55,12 +55,12 @@ public class easyvillastrat1 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.doc,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,"8-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"8-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"8-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"8-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.doc,"8-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"8-1-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

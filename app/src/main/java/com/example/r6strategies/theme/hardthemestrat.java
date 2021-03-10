@@ -56,12 +56,12 @@ public class hardthemestrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"0-0-3"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"7-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"7-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MAESTRO", R.drawable.maestro,"7-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("MIRA", R.drawable.mira,"7-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"7-0-3"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"7-0-3"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

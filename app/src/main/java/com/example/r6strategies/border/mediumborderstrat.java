@@ -56,12 +56,12 @@ public class mediumborderstrat extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"2-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.mute,"2-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"2-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,"2-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"2-0-2"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("VALKYRIE", R.drawable.valkyrie,"1-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.mute,"1-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("ORYX", R.drawable.oryx,"1-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("KAID", R.drawable.kaid,"1-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"1-0-2"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"1-0-2"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

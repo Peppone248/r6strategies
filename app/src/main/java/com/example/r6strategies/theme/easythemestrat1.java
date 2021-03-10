@@ -55,12 +55,12 @@ public class easythemestrat1 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.doc,"0-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"0-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("CAVEIRA", R.drawable.caveira,"7-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"7-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"7-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("BANDIT", R.drawable.bandit,"7-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.doc,"7-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"7-1-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

@@ -73,15 +73,194 @@ public class OperatoreRole extends Fragment {
         String diff = null;
         String spot = null;
         String mappa = null;
-        if(os.mappa==3){
-           mappa = "oregon";
-            if(os.spot==2){
-                spot = "meetinghallkitchen";
-            }
+
+        switch (os.diff){
+            case 1:
+                diff="easy";
+                break;
+            case 2:
+                diff="medium";
+                break;
+            case 3:
+                diff="hard";
+                break;
         }
-        if(os.diff==1){
-          diff ="easy";
+
+        switch (os.mappa){
+            case 0:
+                mappa="kafe";
+                switch (os.spot){
+                    case 0:
+                        spot = "barcocktaillounge";
+                        break;
+                    case 1:
+                        spot = "fireplacehallminingroom";
+                        break;
+                    case 2:
+                        spot = "readingroomfireplacehall";
+                        break;
+                    case 3:
+                        spot = "kitchenservicekitchencooking";
+                        break;
+                }
+                break;
+            case 1:
+                mappa="border";
+                switch (os.spot){
+                    case 0:
+                        spot = "armorylockersarchives";
+                        break;
+                    case 1:
+                        spot = "workshopventilationroom";
+                        break;
+                    case 2:
+                        spot = "customsinspectionsupplyroom";
+                        break;
+                    case 3:
+                        spot = "tellersbathrooms";
+                        break;
+                }
+                break;
+            case 2:
+                mappa="bank";
+                switch (os.spot){
+                    case 0:
+                        spot = "executiveloungeceooffice";
+                        break;
+                    case 1:
+                        spot = "staffroomopenarena";
+                        break;
+                    case 2:
+                        spot = "tellersofficearchives";
+                        break;
+                    case 3:
+                        spot = "lockerscctvroom";
+                        break;
+                }
+                break;
+            case 3:
+                mappa="oregon";
+                switch (os.spot){
+                    case 0:
+                        spot = "maindormshallkidsdormitory";
+                        break;
+                    case 1:
+                        spot = "dininghallkitchen";
+                        break;
+                    case 2:
+                        spot = "meetinghallkitchen";
+                        break;
+                    case 3:
+                        spot = "laundryroomsupplyroom";
+                        break;
+                }
+                break;
+            case 4:
+                mappa="kanal";
+                switch (os.spot){
+                    case 0:
+                        spot = "radarroomserverroom";
+                        break;
+                    case 1:
+                        spot = "maproomsecurityroom";
+                        break;
+                    case 2:
+                        spot = "coastguardmeetingroomlounge";
+                        break;
+                    case 3:
+                        spot = "supplyroomkayaks";
+                        break;
+                }
+                break;
+            case 5:
+                mappa="coastline";
+                switch (os.spot){
+                    case 0:
+                        spot = "theaterpenthouse";
+                        break;
+                    case 1:
+                        spot = "hookahloungebilliardsroom";
+                        break;
+                    case 2:
+                        spot = "bluebarsunrisebar";
+                        break;
+                    case 3:
+                        spot = "serviceentrancekitchen";
+                        break;
+                }
+                break;
+            case 6:
+                mappa="clb";
+                switch (os.spot){
+                    case 0:
+                        spot = "gymbedroom";
+                        break;
+                    case 1:
+                        spot = "cctvroomcashroom";
+                        break;
+                    case 2:
+                        spot = "barstockroom";
+                        break;
+                    case 3:
+                        spot = "churcharsenalroom";
+                        break;
+                }
+                break;
+            case 7:
+                mappa="themepark";
+                switch (os.spot){
+                    case 0:
+                        spot = "initiationroomoffice";
+                        break;
+                    case 1:
+                        spot = "bunkdaycare";
+                        break;
+                    case 2:
+                        spot = "armorythroneroom";
+                        break;
+                    case 3:
+                        spot = "labstorage";
+                        break;
+                }
+                break;
+            case 8:
+                mappa="villa";
+                switch (os.spot){
+                    case 0:
+                        spot = "aviatorroomgamesroom";
+                        break;
+                    case 1:
+                        spot = "trophyroomstatuaryroom";
+                        break;
+                    case 2:
+                        spot = "livingroomlibrary";
+                        break;
+                    case 3:
+                        spot = "diningroomkitchen";
+                        break;
+                }
+                break;
+            case 9:
+                mappa="skyscraper";
+
+                switch (os.spot){
+                    case 0:
+                        spot = "karaoketearoom";
+                        break;
+                    case 1:
+                        spot = "exhibitionworkoffice";
+                        break;
+                    case 2:
+                        spot = "bbqkitchen";
+                        break;
+                    case 3:
+                        spot = "bedroombathroom";
+                        break;
+                }
+
+                break;
         }
+
 
         String temp = mappa+spot+diff+os.operatore.toLowerCase()+"print";
         String tempExample = mappa+spot+diff+os.operatore.toLowerCase()+"example";

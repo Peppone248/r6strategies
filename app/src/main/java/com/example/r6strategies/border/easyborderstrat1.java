@@ -55,12 +55,12 @@ public class easyborderstrat1 extends Fragment {
         {
 
             carItemList = new ArrayList<OperatorRecyclerViewItem>();
-            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,"2-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,"2-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"2-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"2-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"2-1-1"));
-            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"2-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("CASTLE", R.drawable.castle,"1-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("KAPKAN", R.drawable.kapkan,"1-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("ELA", R.drawable.ela,"1-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("JAGER", R.drawable.jager,"1-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("FROST", R.drawable.frost,"1-1-1"));
+            carItemList.add(new OperatorRecyclerViewItem("WALLS", R.drawable.rfwalls,"1-1-1"));
             //carItemList.add(new CarRecyclerViewItem("Future", R.drawable.kaid));
         }
     }

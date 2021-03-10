@@ -16,7 +16,7 @@ public class SelectSpotVilla extends AppCompatActivity {
     ListView list;
 
     public String[] maintitle ={
-            "2F Aviator Room\n2F Games Room","2F Trophy Roomk\n2F Statuary Room",
+            "2F Aviator Room\n2F Games Room","2F Trophy Room\n2F Statuary Room",
             "1F Living Room\n1F Library","1F Dining Room\n1F Kitchen"
     };
 
