@@ -9,8 +9,10 @@ import androidx.fragment.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.r6strategies.modelli.OperatoreSpot;
 
@@ -32,11 +34,101 @@ public class OperatoreGadget extends Fragment {
 
         Bundle bundle = getArguments();
         OperatoreSpot os= (OperatoreSpot) bundle.getSerializable("os");
-
+        ImageView imageAbility = view.findViewById(R.id.image_ability);
+        TextView nameAbility = view.findViewById(R.id.name_ability);
 
         String diff = null;
         String spot = null;
         String mappa = null;
+
+        switch (os.operatore){
+            case"VALKYRIE":
+                imageAbility.setImageResource(R.drawable.blackeye);
+                nameAbility.setText("black eye");
+                break;
+            case"BANDIT":
+
+                break;
+            case"MUTE":
+                imageAbility.setImageResource(R.drawable.jammer);
+                nameAbility.setText("jammer");
+                break;
+            case"SMOKE":
+
+                break;
+            case"MELUSI":
+
+                break;
+            case"MIRA":
+
+                break;
+            case"VIGIL":
+
+                break;
+            case"KAID":
+
+                break;
+            case"ARUNI":
+
+                break;
+            case"ECHO":
+
+                break;
+            case"ALIBI":
+
+                break;
+            case"FROST":
+
+                break;
+            case"LESION":
+
+                break;
+            case"ELA":
+
+                break;
+            case"CAVEIRA":
+
+                break;
+            case"GOYO":
+
+                break;
+            case"JAGER":
+
+                break;
+            case"MAESTRO":
+
+                break;
+            case"MOZZIE":
+
+                break;
+            case"ORYX":
+
+                break;
+            case"TACHANKA":
+
+                break;
+            case"WAMAI":
+
+                break;
+            case"PULSE":
+
+                break;
+            case"KAPKAN":
+
+                break;
+            case"DOC":
+
+                break;
+            case"ROOK":
+
+                break;
+            case"CASTLE":
+
+                break;
+            case"WARDEN":
+
+                break;
+        }
 
         switch (os.diff){
             case 1:
