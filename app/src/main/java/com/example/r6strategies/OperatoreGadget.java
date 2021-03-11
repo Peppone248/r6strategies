@@ -44,29 +44,33 @@ public class OperatoreGadget extends Fragment {
         switch (os.operatore){
             case"VALKYRIE":
                 imageAbility.setImageResource(R.drawable.blackeye);
-                nameAbility.setText("black eye");
+                nameAbility.setText("BLACK EYE");
                 break;
             case"BANDIT":
 
                 break;
             case"MUTE":
                 imageAbility.setImageResource(R.drawable.jammer);
-                nameAbility.setText("jammer");
+                nameAbility.setText("JAMMER");
                 break;
             case"SMOKE":
-
+                imageAbility.setImageResource(R.drawable.gasgrenade);
+                nameAbility.setText("GAS GRENADE");
                 break;
             case"MELUSI":
-
+                imageAbility.setImageResource(R.drawable.banshee);
+                nameAbility.setText("BANSHEE");
                 break;
             case"MIRA":
-
+                imageAbility.setImageResource(R.drawable.blackmirror);
+                nameAbility.setText("BLACK MIRROR");
                 break;
             case"VIGIL":
 
                 break;
             case"KAID":
-
+                imageAbility.setImageResource(R.drawable.electroclaw);
+                nameAbility.setText("RTILA ELECTROCLAW");
                 break;
             case"ARUNI":
 
@@ -81,10 +85,12 @@ public class OperatoreGadget extends Fragment {
 
                 break;
             case"LESION":
-
+                imageAbility.setImageResource(R.drawable.spinelesion);
+                nameAbility.setText("GU MINE");
                 break;
             case"ELA":
-
+                imageAbility.setImageResource(R.drawable.mineela);
+                nameAbility.setText("CONCUSSION MINE");
                 break;
             case"CAVEIRA":
 
