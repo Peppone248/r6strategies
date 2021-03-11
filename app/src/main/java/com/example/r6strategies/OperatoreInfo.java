@@ -39,7 +39,9 @@ public class OperatoreInfo extends Fragment {
         OperatoreSpot os= (OperatoreSpot) bundle.getSerializable("os");
         ImageView imOp = view.findViewById(R.id.image_operator);
         ImageView flag= view.findViewById(R.id.flag_operator);
+        ImageView ability = view.findViewById(R.id.image_ability);
         TextView aff= view.findViewById(R.id.name_affiliazione);
+        TextView nameAbility = view.findViewById(R.id.name_ability);
 
         TextView nomeOp = view.findViewById(R.id.name_operator);
         nomeOp.setText(os.operatore);
@@ -48,7 +50,9 @@ public class OperatoreInfo extends Fragment {
             case"VALKYRIE":
                 imOp.setImageResource(R.drawable.valk);
                 flag.setImageResource(R.drawable.flagusa);
+                ability.setImageResource(R.drawable.blackeye);
                 aff.setText("Navy Seal");
+                nameAbility.setText("BLACK EYE");
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
