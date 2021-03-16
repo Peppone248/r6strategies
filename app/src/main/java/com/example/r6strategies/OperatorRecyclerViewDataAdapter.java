@@ -47,11 +47,18 @@ public class OperatorRecyclerViewDataAdapter extends RecyclerView.Adapter<Operat
                     os.mappa= Integer.parseInt(split[0]);
                     os.spot = Integer.parseInt(split[1]);
                     os.diff = Integer.parseInt(split[2]);
-
-                    Intent i =new Intent(v.getContext(), Operatore.class);
                     os.operatore=carTitle;
-                    i.putExtra("os",os);
-                    v.getContext().startActivity(i);
+
+                    if(carTitle.equals("WALLS")){
+                        Intent i =new Intent(v.getContext(), WallsActivity.class);
+                        i.putExtra("os",os);
+                        v.getContext().startActivity(i);
+                    }else {
+                        Intent i =new Intent(v.getContext(), Operatore.class);
+                        i.putExtra("os",os);
+                        v.getContext().startActivity(i);
+                    }
+
 
 
 

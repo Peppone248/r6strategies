@@ -15,18 +15,17 @@ import android.widget.ListView;
 
 import com.example.r6strategies.modelli.OperatoreSpot;
 
-public class OperatoreGadget extends Fragment {
+public class WallsReinforced extends Fragment {
 
     String[] maintitle;
     Integer[] imgid ;
+    public WallsReinforced(){
 
-    public OperatoreGadget() {
-        // Required empty public constructor
     }
-
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view =inflater.inflate(R.layout.fragment_operator_gadget, container, false);
+        View view = inflater.inflate(R.layout.fragment_reinforced_walls, container, false);
 
         Bundle bundle = getArguments();
         OperatoreSpot os= (OperatoreSpot) bundle.getSerializable("os");
@@ -223,7 +222,7 @@ public class OperatoreGadget extends Fragment {
         }
 
 
-        String temp = mappa+spot+diff+os.operatore.toLowerCase()+"gadget";
+        String temp = mappa+spot+diff+"rfwall";
         Context context = view.getContext();
         String temp2;
         String temp3;
@@ -244,7 +243,7 @@ public class OperatoreGadget extends Fragment {
                 temp2 = temp + i;
                 flag=context.getResources().getIdentifier(temp2, "drawable", context.getPackageName());
                 imgid[i-1]=flag;
-                maintitle[i-1]= "Suggested Spot ";
+                maintitle[i-1]= "";
                 i++;
                 temp3= temp+i;
             }while (context.getResources().getIdentifier(temp3, "drawable", context.getPackageName())!=0);
@@ -256,8 +255,6 @@ public class OperatoreGadget extends Fragment {
             list.setAdapter(lAdapter);
 
         }
-
-
-      return view;
+        return view;
     }
 }

@@ -10,12 +10,6 @@ public class OperatorRecyclerViewItem {// Save car name.
 
     private String info;
 
-    public OperatorRecyclerViewItem(String carName, int carImageId) {
-        this.carName = carName;
-        this.carImageId = carImageId;
-        info = "spot a ";
-
-    }
 
     public OperatorRecyclerViewItem(String carName, int carImageId,String info) {
         this.carName = carName;

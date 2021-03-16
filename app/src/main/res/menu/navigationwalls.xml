@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_reinforced"
+        android:icon="@drawable/ic_info_operatore"
+        android:title="Reinforced"/>
+
+    <item
+        android:id="@+id/navigation_rotation"
+        android:icon="@drawable/role"
+        android:title="Rotation"/>
+
+</menu>
