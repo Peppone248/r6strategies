@@ -248,7 +248,7 @@ public class WallsReinforced extends Fragment {
                 temp3= temp+i;
             }while (context.getResources().getIdentifier(temp3, "drawable", context.getPackageName())!=0);
 
-            ListView list=view.findViewById(R.id.list_images_ability);
+            ListView list=view.findViewById(R.id.list_rfwalls);
 
             ImageGadgetListAdpter lAdapter = new ImageGadgetListAdpter(getActivity(),maintitle, imgid);
 
