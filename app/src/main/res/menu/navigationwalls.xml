@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_reinforced"
-        android:icon="@drawable/ic_info_operatore"
+        android:icon="@drawable/walllogo"
         android:title="Reinforced"/>
 
     <item
         android:id="@+id/navigation_rotation"
-        android:icon="@drawable/role"
+        android:icon="@drawable/rotationlogo"
         android:title="Rotation"/>
 
 </menu>

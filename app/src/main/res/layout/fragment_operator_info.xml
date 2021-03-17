@@ -230,7 +230,7 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_margin="10dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="right" />
 
     </LinearLayout>
 </LinearLayout>

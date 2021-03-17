@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.r6strategies.FirstScreen;
 import com.example.r6strategies.MainActivity;
 import com.example.r6strategies.R;
 
@@ -28,7 +29,6 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-
         bottomAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation_splash);
         middleAnimation = AnimationUtils.loadAnimation(this, R.anim.middle_animation_splash);
 
@@ -44,12 +44,11 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), FirstScreen.class);
                 startActivity(i);
                 overridePendingTransition(R.anim.anim, R.anim.no_animation);
             }
         }, 2000);
-
 
     }
 }

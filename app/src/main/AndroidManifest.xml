@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_r6strats_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.R6strategies">
-        <activity android:name=".WallsActivity"
+        <activity android:name=".FirstScreen"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.R6strategies.noAction"/>
+        <activity
+            android:name=".WallsActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.R6strategies.operatore"/>
+            android:theme="@style/Theme.R6strategies.operatore" />
         <activity
             android:name=".Operatore"
             android:screenOrientation="portrait"
@@ -25,7 +29,6 @@
             android:theme="@style/Theme.R6strategies.noAction">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

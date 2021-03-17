@@ -86,6 +86,7 @@ public class OperatoreInfo extends Fragment {
             case"MUTE":
                 imOp.setImageResource(R.drawable.opmute);
                 flag.setImageResource(R.drawable.britainflag);
+                ability.setImageResource(R.drawable.jammer);
                 aff.setText("SAS");
                 //COR
                 radioButton1.setChecked(true);
