@@ -105,6 +105,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opsmoke);
                 flag.setImageResource(R.drawable.britainflag);
                 aff.setText("SAS");
+                ability.setImageResource(R.drawable.gasgrenade);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -122,6 +123,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opmelusi);
                 flag.setImageResource(R.drawable.southafricaflag);
                 aff.setText("ITF");
+                ability.setImageResource(R.drawable.banshee);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(false);
@@ -139,6 +141,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opmira);
                 flag.setImageResource(R.drawable.spainflag);
                 aff.setText("G.E.O.");
+                ability.setImageResource(R.drawable.blackmirror);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -174,6 +177,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opkaid);
                 flag.setImageResource(R.drawable.moroccoflag);
                 aff.setText("GIGR");
+                ability.setImageResource(R.drawable.electroclaw);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -208,6 +212,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opalibi);
                 flag.setImageResource(R.drawable.italyflag);
                 aff.setText("G.I.S.");
+                ability.setImageResource(R.drawable.prisma);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(false);
@@ -225,6 +230,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opfrost);
                 flag.setImageResource(R.drawable.canadaflag);
                 aff.setText("JTF2");
+                ability.setImageResource(R.drawable.frosttrap);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -242,6 +248,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.oplesion);
                 flag.setImageResource(R.drawable.hongkongicon);
                 aff.setText("S.D.U.");
+                ability.setImageResource(R.drawable.spinelesion);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -259,6 +266,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opela);
                 flag.setImageResource(R.drawable.polandflag);
                 aff.setText("GROM");
+                ability.setImageResource(R.drawable.mineela);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(false);
@@ -293,6 +301,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opgoyo);
                 flag.setImageResource(R.drawable.mexicanflag);
                 aff.setText("FES");
+                ability.setImageResource(R.drawable.volcanshield);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -310,6 +319,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opjager);//quando carichi questa foto le granate non sono più un problema
                 flag.setImageResource(R.drawable.germanyflag);
                 aff.setText("GSG9");
+                ability.setImageResource(R.drawable.ads);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -327,6 +337,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opmaestro);
                 flag.setImageResource(R.drawable.italyflag);
                 aff.setText("GIS");
+                ability.setImageResource(R.drawable.evileye);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -344,6 +355,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opmozzie);
                 flag.setImageResource(R.drawable.australiaflag);
                 aff.setText("SASR");
+                ability.setImageResource(R.drawable.pestlauncher);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -361,6 +373,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.oporyx);
                 flag.setImageResource(R.drawable.jordanflag);
                 aff.setText("NA");
+                ability.setImageResource(R.drawable.remahdash);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -412,6 +425,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opecho);
                 flag.setImageResource(R.drawable.japanflag);
                 aff.setText("S.A.T.");
+                ability.setImageResource(R.drawable.yokai);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -446,6 +460,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opkapkan);
                 flag.setImageResource(R.drawable.russiaflag);
                 aff.setText("SPETSNAZ");
+                ability.setImageResource(R.drawable.kapkantrap);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
@@ -497,6 +512,7 @@ public class OperatoreInfo extends Fragment {
                 imOp.setImageResource(R.drawable.opcastle);
                 flag.setImageResource(R.drawable.flagusa);
                 aff.setText("SWAT");
+                ability.setImageResource(R.drawable.armorpanel);
                 //COR
                 radioButton1.setChecked(true);
                 radioButton2.setChecked(true);
