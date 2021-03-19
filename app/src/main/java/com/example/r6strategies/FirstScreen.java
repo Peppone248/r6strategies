@@ -49,14 +49,18 @@ public class FirstScreen extends AppCompatActivity {
         attImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(FirstScreen.this, "In attacco facciamo piangere", Toast.LENGTH_SHORT).show();
+                Intent attStrat = new Intent(getApplicationContext(), AvailableSoonScreen.class);
+                startActivity(attStrat);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
         attacker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(FirstScreen.this, "In attacco facciamo piangere", Toast.LENGTH_SHORT).show();
+                Intent attStrat = new Intent(getApplicationContext(), AvailableSoonScreen.class);
+                startActivity(attStrat);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
     }

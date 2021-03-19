@@ -38,7 +38,7 @@ public class kanalStrat2 extends AppCompatActivity {
 
     private void setTabLayout() {
         tabLayout.setupWithViewPager(viewPager);
-        tabLayout.getTabAt(0).setText("Easy");
+        tabLayout.getTabAt(0).setText("Easy - CLB");
         tabLayout.getTabAt(1).setText("Medium");
         tabLayout.getTabAt(2).setText("Hard");
     }

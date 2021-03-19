@@ -35,9 +35,9 @@ public class hardoregonstrat3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_hardstrat, container, false);
+        View view = inflater.inflate(R.layout.activity_available_soon_screen, container, false);
 
-        initializeCarItemList();
+      /*  initializeCarItemList();
         RecyclerView carRecyclerView = (RecyclerView) view.findViewById(R.id.card_view_recycler_list);
         // Create the grid layout manager with 2 columns.
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(), 2);
@@ -47,7 +47,7 @@ public class hardoregonstrat3 extends Fragment {
         // Create car recycler view data adapter with car item list.
         OperatorRecyclerViewDataAdapter carDataAdapter = new OperatorRecyclerViewDataAdapter(carItemList);
         // Set data adapter.
-        carRecyclerView.setAdapter(carDataAdapter);
+        carRecyclerView.setAdapter(carDataAdapter); */
         return view;
     }
 
