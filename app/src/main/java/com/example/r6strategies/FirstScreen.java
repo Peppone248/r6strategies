@@ -64,4 +64,11 @@ public class FirstScreen extends AppCompatActivity {
             }
         });
     }
+
+
+    @Override
+    public void onBackPressed() {
+        //Pulsante back disabilitato
+    }
+
 }

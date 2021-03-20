@@ -255,6 +255,8 @@ public class OperatoreGadget extends Fragment {
 
             list.setAdapter(lAdapter);
 
+        }else{
+            view =inflater.inflate(R.layout.fragment_operator_nogadget, container, false);
         }
 
 

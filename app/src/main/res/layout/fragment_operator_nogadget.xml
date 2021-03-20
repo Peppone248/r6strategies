@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".OperatoreGadget">
+
+    <TextView
+        android:id="@+id/no_gadget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/scoutcond"
+        android:gravity="center"
+        android:text="This operator has no placeable gadgets"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+</LinearLayout>
