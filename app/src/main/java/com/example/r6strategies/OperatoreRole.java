@@ -70,6 +70,9 @@ public class OperatoreRole extends Fragment {
         OperatoreSpot os= (OperatoreSpot) bundle.getSerializable("os");
         ImageView rolePrint = view.findViewById(R.id.rolePrint);
         ImageView exampleRole = view.findViewById(R.id.exampleRole);
+
+        TextView textRole = view.findViewById(R.id.textRole);
+
         String diff = null;
         String spot = null;
         String mappa = null;
@@ -264,12 +267,15 @@ public class OperatoreRole extends Fragment {
 
         String temp = mappa+spot+diff+os.operatore.toLowerCase()+"print";
         String tempExample = mappa+spot+diff+os.operatore.toLowerCase()+"example";
+        String tempText = mappa+spot+diff+os.operatore.toLowerCase()+"text";
 
         Context context = rolePrint.getContext();
         int id = context.getResources().getIdentifier(temp, "drawable", context.getPackageName());
         rolePrint.setBackgroundResource(id);
         id =context.getResources().getIdentifier(tempExample, "drawable", context.getPackageName());
         exampleRole.setBackgroundResource(id);
+        id = context.getResources().getIdentifier(tempText,"string",context.getPackageName());
+        textRole.setText(context.getString(id));
 
         return view;
     }
