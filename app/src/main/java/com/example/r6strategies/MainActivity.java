@@ -11,8 +11,10 @@ import android.widget.Toast;
 
 import com.example.r6strategies.bank.SelectSpotBank;
 import com.example.r6strategies.border.SelectSpotBorder;
+import com.example.r6strategies.chalet.SelectSpotChalet;
 import com.example.r6strategies.clb.SelectSpotCLB;
 import com.example.r6strategies.coastline.SelectSpotCosta;
+import com.example.r6strategies.consulate.SelectSpotConsulate;
 import com.example.r6strategies.kafe.SelectSpotKafe;
 import com.example.r6strategies.kanal.SelectSpotKanal;
 import com.example.r6strategies.oregon.SelectSpotOregon;
@@ -29,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
             "Bank","Oregon",
             "Kanal", "Coastline",
             "Clubhouse", "Theme Park",
-            "Villa", "Skyscraper"
+            "Villa", "Skyscraper", "Chalet",
+            "Consulate"
     };
 
 
@@ -38,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.bank,R.drawable.oregon,
             R.drawable.kanal, R.drawable.costa,
             R.drawable.clb, R.drawable.theme,
-            R.drawable.villa, R.drawable.skyscraper
+            R.drawable.villa, R.drawable.skyscraper,
+            R.drawable.chalet, R.drawable.consulate
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 else if(position == 1) {
-                    Intent kafe = new Intent(getApplicationContext(), SelectSpotBorder.class);
-                    startActivity(kafe);
+                    Intent border = new Intent(getApplicationContext(), SelectSpotBorder.class);
+                    startActivity(border);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
 
@@ -92,20 +96,29 @@ public class MainActivity extends AppCompatActivity {
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 7) {
-
                     Intent theme = new Intent(MainActivity.this, SelectSpotTheme.class);
                     MainActivity.this.startActivity(theme);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
                  else if(position == 8) {
-                    Intent theme = new Intent(MainActivity.this, SelectSpotTheme.class);
-                    MainActivity.this.startActivity(theme);
-                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-                }
-                 else if(position == 9) {
                     Intent villa = new Intent(MainActivity.this, SelectSpotVilla.class);
                     MainActivity.this.startActivity(villa);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                }
+                 else if(position == 9) {
+                    Intent sky = new Intent(MainActivity.this, SelectSpotTheme.class);
+                    MainActivity.this.startActivity(sky);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                }
+                 else if (position == 10){
+                     Intent chalet = new Intent(MainActivity.this, SelectSpotChalet.class);
+                     MainActivity.this.startActivity(chalet);
+                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                }
+                 else if (position==11){
+                     Intent cons = new Intent(MainActivity.this, SelectSpotConsulate.class);
+                     MainActivity.this.startActivity(cons);
+                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 }
             }
         });
