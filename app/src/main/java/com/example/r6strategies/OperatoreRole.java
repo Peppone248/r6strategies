@@ -275,6 +275,9 @@ public class OperatoreRole extends Fragment {
         id =context.getResources().getIdentifier(tempExample, "drawable", context.getPackageName());
         exampleRole.setBackgroundResource(id);
         id = context.getResources().getIdentifier(tempText,"string",context.getPackageName());
+        if(id==0){
+            id = context.getResources().getIdentifier("hello_blank_fragment","string",context.getPackageName());
+        }
         textRole.setText(context.getString(id));
 
         return view;

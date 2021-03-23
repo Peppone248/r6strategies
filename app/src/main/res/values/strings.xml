@@ -4,11 +4,17 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="oregonmeetinghallkitcheneasyfrosttext">Frost ha il compito di difendere Dining Hall (zona con i bordi in rosso).
-    Si consiglia di posizionare lo scudo nella posizone che vedete qui sotto</string>
+    Si consiglia di posizionare lo scudo nella posizone che vedete qui sotto.</string>
     <string name="oregonmeetinghallkitcheneasysmoketext">Smoke ha il compito di difendere il corridoio di Green(zona con i bordi in rosso).
         Si consiglia di posizionare lo scudo nella posizone che vedete qui sotto e di usare la propria abilità per rallentare gli attacanti.</string>
     <string name="oregonmeetinghallkitcheneasymutetext">Mute ha il ruolo più importante in questa difesa , infatti deve difendere il secondo piano(zona con i bordi gialli).
-    Se rompete la botola che si trova in Tower Connector avrete un\'ottimo angolo di tiro per difndere l\'accesso da "green"</string>
+    Se rompete la botola che si trova in Tower Connector avrete un\'ottimo angolo di tiro per difndere l\'accesso da "green".</string>
     <string name="oregonmeetinghallkitcheneasyvalkyrietext">Valkyria ha il compito di rimanere in Meetings per guardare le telecamere e dare info alla squadra. </string>
     <string name="oregonmeetinghallkitcheneasyjagertext">Jager ha il compito di difendere la zona di Main(zona con i bordi rossi).</string>
+
+    <string name="oregonlaundryroomsupplyroomeasymiratext">Mira ha il compito di difendere l\'entrata da cantieri edili (zona con i bordi rossi).</string>
+    <string name="oregonlaundryroomsupplyroomeasyvalkyrietext">Mira ha il compito guardare le cam e dare info alla squadra.</string>
+    <string name="oregonlaundryroomsupplyroomeasymutetext">Mute ha il compito difendere l\'entrata da lavanderia(zona con i bordi rossi).</string>
+    <string name="oregonlaundryroomsupplyroomeasybandittext">Bandit ha il compito difendere l\'entrata da cella frigorifera(zona con i bordi rossi).</string>
+    <string name="oregonlaundryroomsupplyroomeasykapkantext">Kapkan ha il compito difendere l\'entrata da scale di Tower(zona con i bordi rossi).</string>
 </resources>
